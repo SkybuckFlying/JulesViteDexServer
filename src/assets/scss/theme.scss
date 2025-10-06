@@ -1,0 +1,303 @@
+/* theme: 0-white, 1-black **/
+$font-bold: PingFangSC-Semibold, arial, sans-serif;
+$font-normal: PingFangSC-Regular, arial, sans-serif;
+$font-normal-b: Avenir-Book, arial, sans-serif;
+$font-H: DINPro, arial, sans-serif;
+
+@mixin font-family($font) {
+    font-family: $font, arial, sans-serif;
+}
+
+@mixin font-family-normal() {
+    font-family: $font-normal;
+    font-weight: 400;
+}
+
+@mixin font-family-bold() {
+    font-family: $font-bold;
+    font-weight: 600;
+}
+
+$black-color-1: #0f162d;
+$black-color-2: #151c32;
+$black-color-3: #01081f;
+$black-color-4: #1e2745;
+$black-color-5: #1d2024;
+
+$white-color: #fff;
+
+$blue-color-1: #00beff;
+$blue-color-2: #4b74ff;
+$blue-color-3: rgba(38, 142, 255, 1);
+
+$red-color: #e5494d;
+$red-color-1: #ff2929;
+    
+
+$green-color: #00ff95;
+
+$gray-color-1: #bdc1d1;
+$gray-color-2: #545f75;
+$gray-color-3: #73767a;
+$gray-color-4: rgba(94, 104, 117, 1);
+
+$hover-color-1: rgba(75, 116, 255, 0.1);
+$hover-color-2: $black-color-4;
+:root{
+    --vs-font-size: 0.14rem;
+}
+
+
+@mixin bg_color_1() {
+    [data-theme="0"] & {
+        background-color: $white-color;
+    }
+    [data-theme="1"] & {
+        background-color: $black-color-1;
+    }
+}
+
+@mixin bg_color_2() {
+    [data-theme="0"] & {
+        background-color: $white-color;
+    }
+    [data-theme="1"] & {
+        background-color: $black-color-2;
+    }
+}
+
+@mixin bg_color_3() {
+    [data-theme="0"] & {
+        background-color: $white-color;
+    }
+    [data-theme="1"] & {
+        background-color: $black-color-3;
+    }
+}
+
+@mixin bg_color_4() {
+    [data-theme="0"] & {
+        background-color: $white-color;
+    }
+    [data-theme="1"] & {
+        background-color: $black-color-4;
+    }
+}
+
+@mixin bg_color_custom($color-0, $color-1) {
+    [data-theme="0"] & {
+        background-color: $color-0;
+    }
+    [data-theme="1"] & {
+        background-color: $color-1;
+    }
+}
+
+@mixin primary_color {
+    [data-theme="0"] & {
+        color: $blue-color-1;
+    }
+    [data-theme="1"] & {
+        color: $green-color;
+    }
+}
+
+@mixin primary_font_color {
+    [data-theme="0"] & {
+        color: $white-color;
+    }
+    [data-theme="1"] & {
+        color: $black-color-1;
+    }
+}
+
+@mixin primary_bg_color {
+    [data-theme="0"] & {
+        background-color: $blue-color-1;
+    }
+    [data-theme="1"] & {
+        background-color: $green-color;
+    }
+}
+
+@mixin primary_border_color {
+    [data-theme="0"] & {
+        border-color: $blue-color-1;
+    }
+    [data-theme="1"] & {
+        border-color: $green-color;
+    }
+}
+
+@mixin hover_color() {
+    [data-theme="0"] & {
+        background-color: $hover-color-1;
+    }
+    [data-theme="1"] & {
+        background-color: $hover-color-2;
+    }
+}
+
+@mixin common_border() {
+    [data-theme="0"] & {
+        border: 1px solid #D4DEE7;
+    }
+    [data-theme="1"] & {
+        border: 1px solid $black-color-4;
+    }
+}
+
+@mixin common_border_one($b) {
+    @if $b == bottom {
+        [data-theme="0"] & {
+            border-bottom: 1px solid #D4DEE7;
+        }
+        [data-theme="1"] & {
+            border-bottom: 1px solid $black-color-4;
+        }
+    }
+    @if $b == top {
+        [data-theme="0"] & {
+            border-top: 1px solid #D4DEE7;
+        }
+        [data-theme="1"] & {
+            border-top: 1px solid $black-color-4;
+        }
+    }
+    @if $b == right {
+        [data-theme="0"] & {
+            border-right: 1px solid #D4DEE7;
+        }
+        [data-theme="1"] & {
+            border-right: 1px solid $black-color-4;
+        }
+    }
+    @if $b == left {
+        [data-theme="0"] & {
+            border-left: 1px solid #D4DEE7;
+        }
+        [data-theme="1"] & {
+            border-left: 1px solid $black-color-4;
+        }
+    }
+}
+
+@mixin common_font_color() {
+    [data-theme="0"] & {
+        color: rgba(29,32,36,1); // 1D2024
+    }
+    [data-theme="1"] & {
+        color: $white-color;
+    }
+}
+
+@mixin second_title_font_color() {
+    [data-theme="0"] & {
+        color: $gray-color-1;
+    }
+    [data-theme="1"] & {
+        color: $gray-color-2;
+    }
+}
+
+@mixin default_font_color() {
+    [data-theme="0"] & {
+        color: #000;
+    }
+    [data-theme="1"] & {
+        color: $white-color;
+    }
+}
+
+@mixin font_color_to_white($color) {
+    [data-theme="0"] & {
+        color: $color;
+    }
+    [data-theme="1"] & {
+        color: $white-color;
+    }
+}
+
+@mixin gray_font_color_1() {
+    [data-theme="0"] & {
+        color: $gray-color-4;
+    }
+    [data-theme="1"] & {
+        color: $gray-color-2;
+    }
+}
+
+@mixin font_color_1() {
+    [data-theme="0"] & {
+        color: $black-color-5;
+    }
+    [data-theme="1"] & {
+        color: $white-color;
+    }
+}
+
+@mixin font_color_2() {
+    [data-theme='0'] & {
+        color: #5e6875; // color: rgba(94,104,117,0.58);
+    }
+    [data-theme="1"] & {
+        color: $gray-color-2;
+    }
+}
+
+@mixin gray_btn_color() {
+    color: $white-color;
+    [data-theme="0"] & {
+        background: rgba(191,191,191,1);
+    }
+    [data-theme="1"] & {
+        background: $gray-color-2;
+    }
+}
+
+@mixin box_shadow {
+    [data-theme="0"] & {
+        box-shadow: 0 2px 10px 1px rgba(176, 192, 237, 0.42);
+    }
+}
+
+@mixin background_common_img($img_name) {
+    [data-theme="0"] & {
+        background: url("@assets/imgs/" + $img_name);
+        background-size: 100% 100%;
+    }
+    [data-theme="1"] & {
+        background: url("@assets/theme1_imgs/" + $img_name);
+        background-size: 100% 100%;
+    }
+}
+
+@mixin background_common_img_suffix($img_name, $theme0, $theme1) {
+    [data-theme="0"] & {
+        background: url("@assets/imgs/" + $img_name + '.' + $theme0);
+        background-size: 100% 100%;
+    }
+    [data-theme="1"] & {
+        background: url("@assets/theme1_imgs/" + $img_name + '.' + $theme1);
+        background-size: 100% 100%;
+    }
+}
+
+@mixin small_btn {
+    @include font-family-normal();
+    [data-theme="0"] & {
+        border: 1px solid #D4DEE7;
+    }
+    [data-theme="1"] & {
+        border: 1px solid $black-color-4;
+    }
+    font-size: 12px;
+    word-break: keep-all;
+    background: rgba(0,122,255,0.05);
+    border-radius: 2px;
+    line-height: 15px;
+    // color: #00BEFF;
+    @include primary_color();
+    padding: 0 3px;
+    cursor: pointer;
+}

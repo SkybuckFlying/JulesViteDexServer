@@ -1,0 +1,108 @@
+<template>
+    <div class="trade-center-wrapper">
+        <layout>
+            <center-head slot="lt"></center-head>
+            <depth slot="r"></depth>
+            <market slot="lb1"></market>
+            <center-view slot="lb2"></center-view>
+            <latest-tx slot="lb3"></latest-tx>
+            <TradeCard slot="lb4"></TradeCard>
+        </layout>
+
+        <order-tab class="order-tab"></order-tab>
+        <confirm
+            v-show="isComplianceDialogVisible"
+            :size="'small'"
+            :type="'generalTips'"
+            :showMask="true"
+            :title="$t('compliance.title')"
+            :singleBtn="true"
+            :leftBtnTxt="$t('btn.understand')"
+            :leftBtnClick="setComplianceShowed"
+        >
+            <div>
+                <span>{{ $t('compliance.text') }}</span>
+                <a class="link" href="https://vite.org/terms.html" target="__blank">{{
+                    $t('compliance.textTermsLink')
+                }}</a>
+                {{ $t('compliance.textAnd') }}
+                <a class="link" href="https://vite.org/privacy.html" target="__blank">{{
+                    $t('compliance.textPrivacyLink')
+                }}</a>
+            </div>
+        </confirm>
+    </div>
+</template>
+
+<script>
+import confirm from '@pc/components/confirm/confirm.vue';
+import layout from './layout.vue';
+import depth from './depth/depth.vue';
+import market from './market/market.vue';
+import latestTx from './latestTx.vue';
+import TradeCard from './tradeCard/tradeCard.vue';
+import centerHead from './head/head.vue';
+import centerView from './view/view.vue';
+import orderTab from './orderTab.vue';
+
+export default {
+    components: {
+        layout,
+        depth,
+        market,
+        latestTx,
+        TradeCard,
+        centerHead,
+        centerView,
+        orderTab,
+        confirm
+    },
+    methods: {
+        setComplianceShowed() {
+            this.$store.commit('setComplianceShow');
+        }
+    },
+    mounted() {
+        this.$store.dispatch('exFetchActiveTxPair');
+        this.$store.dispatch('startLoopDexFundeUnreceived');
+        this.$store.dispatch('getMiningSettingInfo');
+
+        // !this.$store.state.env.isShowCompliance
+        //     && confirm({
+        //         size: 'small',
+        //         type: 'generalTips',
+        //         title: this.$t('compliance.title'),
+        //         content: this.$t('compliance.text'),
+        //         singleBtn: true,
+        //         leftBtn: {
+        //             text: this.$t('btn.understand'),
+        //             click: this.$store.commit('setComplianceShow')
+        //         }
+        //     });
+    },
+    destroyed() {
+        this.$store.dispatch('stopLoopDexFundUnreceived');
+    },
+    computed: {
+        address() {
+            return this.$store.getters.activeAddr;
+        },
+        isComplianceDialogVisible() {
+            return !this.$store.state.env.isShowCompliance;
+        }
+    }
+};
+</script>
+
+<style lang="scss" scoped>
+.trade-center-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.order-tab {
+    margin-bottom: 10px;
+    min-height: 300px;
+}
+</style>

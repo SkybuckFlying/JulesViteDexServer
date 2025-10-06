@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -49,3 +50,30 @@ workbox-*
 
 # bin/dump_branch_diff
 commits-logs/
+=======
+.DS_Store
+node_modules
+dist
+distH5
+distAPP
+!staticPages/**/static
+.eslintcache
+.idea
+.vscode
+.wrangler
+viteJS
+.netlify
+.yarnrc
+package-lock.json
+secret.js
+static.tar
+h5Static.tar
+upload.sh
+deploy.sh
+backup.sh
+rollback.sh
+yarn-error.log
+test_*.json
+release.sh
+hosts.json
+>>>>>>> ViteWebWallet/master

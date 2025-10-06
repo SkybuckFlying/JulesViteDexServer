@@ -1,0 +1,1655 @@
+{
+    "lang": "Tiếng Việt",
+    "help": "Trung tâm Trợ giúp",
+    "announcements": "Thông báo",
+    "start": "Bắt đầu",
+    "login": "Đăng nhập",
+    "regAcc": "Đăng ký",
+    "unlockAcc": "Mở khóa",
+    "changeAcc": "Chuyển Tài khoản",
+    "existingAcc": "Tài khoản hiện có",
+    "restore": "Nhập từ Mnemonic",
+    "register": "Đăng ký",
+    "createAcc": "Tạo mới",
+    "settingAcc": "Thiết lập Tài khoản",
+    "resetAcc": "Cài lại Tài khoản",
+    "logout": "Đăng xuất",
+    "saveLogout": "Đăng xuất",
+    "blockHeight": "Chiều cao Block Snapshot",
+    "accountName": "Tên Tài khoản",
+    "action": "Hành động",
+    "stakingAmount": "Số lượng Stake",
+    "submitStaking": "Tiến hành Stake",
+    "withdrawHeight": "Chiều cao Snapshot dự kiến",
+    "balance": "Số dư",
+    "dexBalance": "Số dư ViteX",
+    "addrName": "Địa chỉ{index}",
+    "true": "đúng",
+    "false": "sai",
+    "guide": {
+        "close": "Kết thúc",
+        "next": "Tiếp theo",
+        "closeTips": "Bỏ qua Hướng dẫn sử dụng (Không được khuyến khích)",
+        "trade": [
+            "Quản lí tài sản tại đây (ví Web và sàn ViteX)",
+            "Kiểm tra Lệnh đang mở, Lịch sử đặt lệnh và Chi tiết giao dịch",
+            "Tham gia Khai thác, Nhận cổ tức VX và Cổ tức phí giao dịch (Cổ tức Khai thác)",
+            "Trải nghiệm nhiều tính năng hơn: Stake để nhận Quota, Trở thành SBP (Nhà sản xuất Khối Snapshot), Bỏ phiếu cho SBP, Chuyển đổi ERC20, Chi tiết giao dịch, v. v."
+        ],
+        "assets": [
+            "Nạp vào Sàn",
+            "Rút về Ví",
+            "Nạp và Rút cross-chain"
+        ]
+    },
+    "dealReminder": {
+        "title": {
+            "buy": "Lệnh mua đã hoàn thành: {ftoken} / {ttoken}",
+            "sell": "Lệnh bán đã hoàn thành: {ftoken} / {ttoken}"
+        },
+        "failTitle": "Đơn đặt hàng Thất bại",
+        "notice-all": {
+            "buy": "Giá: {price} {ttoken} \nSố lượng: {amount} {ttoken} đã hoàn thành. Kiểm tra Lịch sử Đặt lệnh để biết thêm chi tiết.",
+            "sell": "Giá: {price} {ttoken} \nSố lượng: {amount} {ttoken} đã hoàn thành. Kiểm tra Lịch sử Đặt lệnh để biết thêm chi tiết."
+        },
+        "notice-partial": {
+            "buy": "Giá: {price} {ttoken} \nSố lượng: {amount} {ttoken}, {executedPercent}% đã hoàn thành.",
+            "sell": "Giá: {price}{ttoken} \nSố lượng: {amount} {ttoken} đã {executedPercent}% hoàn thành."
+        },
+        "error": "Đặt hàng thất bại {amount} {ftoken} ({ftoken}/{ttoken}) lúc {time}, hãy truy cập Lịch sử Lệnh để tìm hiểu thêm."
+    },
+    "pow": {
+        "ing": "Bấm Run PoW để nhận quota",
+        "no": "Bạn có thể stake VITE để nhận quota thay vì bấm run PoW",
+        "insuffQuota": "Nhận Quota",
+        "insuffQuotaMsg": "Chúng tôi nhận thấy bạn không có VITE nào bị khóa cho Quota. Vui lòng stake VITE hoặc nếu muốn, bạn có thể chạy POW để nhận Quota.",
+        "insuffQuotaMsg2": "VITE chỉ có thể thực hiện {powMaxTimes} giao dịch mỗi ngày cho mỗi địa chỉ mà không cần đặt stake VITE. Địa chỉ của bạn đã dùng hết {powMaxTimes} giao dịch. Vui lòng truy cập trang Quota và\b stake VITE của bạn để thực hiện nhiều giao dịch hơn.",
+        "getQuota": "Khoá VITE",
+        "skip": "Chạy POW",
+        "cancel": "Huỷ"
+    },
+    "addAccount": "Tạo Tài khoản",
+    "saveQrcode": "Lưu mã QR",
+    "unlockSuccess": "Mở khóa thành công",
+    "sendTrans": {
+        "send": "Gửi Giao dịch",
+        "symbol": "Gửi"
+    },
+    "compliance": {
+        "text": "ViteX không phục vụ khách hàng ở các quốc gia / khu vực / lãnh thổ sau: Hồng Kông, Cuba, Iran, Bắc Triều Tiên, Crimea, Sudan, Malaysia, Syria, Hoa Kỳ [bao gồm tất cả các lãnh thổ Hoa Kỳ như Puerto Rico, Samoa thuộc Hoa Kỳ, đảo Guam, Đảo Bắc Mariana và Quần đảo Virgin thuộc Hoa Kỳ (St. Croix, St. John và St. Thomas)], Bangladesh, Bolivia, Ecuador và Kyrgyzstan. Để biết thêm thông tin, vui lòng đọc Điều khoản dịch vụ và Chính sách bảo mật",
+        "title": "Thông báo Quan trọng"
+    },
+    "bnbConf": {
+        "title": "Thông báo Quan trọng",
+        "t1": "VITE sẽ được niêm yết lên Binance! Vui lòng bỏ phiếu để VITE được niêm yết trên Binance.",
+        "t2": "Thời gian bình chọn: 12:00 PM ngày 12 tháng 12 đến 12:00 PM ngày 13 tháng 12 (HKT)",
+        "t3": "Phương thức bỏ phiếu: Giữ 50 BNB cho phép 1 phiếu bầu (tối đa 10 phiếu bầu)",
+        "t4": "Phần thưởng bình chọn: Tất cả người dùng đã bình chọn sẽ được thưởng một đợt airdrop tổng trị giá 21.000.000 VITE dựa trên các lượt bình chọn được thực hiện.",
+        "btn": "Bình chọn Ngay!!!",
+        "notice": "[Attention]: Bạn phải có 50-500 BNB trong Tài khoản Binance của mình bắt đầu từ ngày 5 tháng 12 và kéo dài đến hết ngày 13 tháng 12 để Đủ điều kiện bỏ phiếu!"
+    },
+    "errCode": {
+        "35003": "{name} xung đột ID, vui lòng thử lại sau",
+        "35004": "Thông số không hợp lệ",
+        "35005": "Giao dịch được gửi quá thường xuyên, vui lòng thử lại sau",
+        "35006": "Phương thức hợp đồng không tồn tại",
+        "35011": "Nghẽn mạng",
+        "36001": "Bạn không thể thực hiện bất kỳ chuyển khoản nào cho đến khi nhận nhận giao dịch",
+        "36002": "Xác minh hệ thống không thành công, vui lòng thử lại sau",
+        "36003": "Xác minh hệ thống không thành công, vui lòng thử lại sau",
+        "36004": "Xác minh hệ thống không thành công, vui lòng thử lại sau",
+        "36005": "Chiều cao khối snapshot bất hợp pháp, vui lòng thử lại sau",
+        "37001": "Định dạng lệnh sai",
+        "37002": "Loại lệnh sai",
+        "37003": "Định dạng giá lệnh sai",
+        "37004": "Ngoại lệ xảy ra trong khối lượng lệnh giao dịch",
+        "37005": "Số lượng lệnh giao dịch quá nhỏ",
+        "37006": "Thị trường giao dịch tồn tại",
+        "37007": "Thị trường giao dịch không tồn tại",
+        "37008": "Ngoại lệ xảy ra trong tìm kiếm thông tin lệnh",
+        "37009": "Lệnh bị thu hồi không thuộc về địa chỉ hiện tại",
+        "37010": "Trạng thái lệnh này không thu hồi được"
+    },
+    "txType": {
+        "RegisterSBP": "Đăng ký SBP",
+        "RegisterSBP_V1": "Đăng ký SBP",
+        "UpdateSBPBlockProducingAddress": "Cập nhật Đăng ký",
+        "UpdateSBPBlockProducingAddress_V1": "Cập nhật Đăng ký",
+        "RevokeSBP": "Thu hồi Đăng ký",
+        "RevokeSBP_V1": "Thu hồi Đăng ký",
+        "WithdrawSBPReward": "Nhận Phần thưởng",
+        "WithdrawSBPReward_V1": "Nhận Phần thưởng",
+        "VoteForSBP": "Bỏ phiếu",
+        "VoteForSBP_V1": "Bỏ phiếu",
+        "CancelSBPVoting": "Hủy bỏ Bỏ phiếu",
+        "CancelSBPVoting_V1": "Hủy bỏ Bỏ phiếu",
+        "StakeForQuota": "Nhận Hạn ngạch",
+        "StakeForQuota_V1": "Nhận Quota",
+        "CancelQuotaStake": "Rút token đã stake",
+        "CancelQuotaStake_V1": "Rút token đã stake",
+        "IssueToken": "Phát hành token",
+        "IssueToken_V1": "Phát hành token",
+        "ReIssueToken": "Phát hành Token bổ sung",
+        "ReIssueToken_V1": "Phát hành Token bổ sung",
+        "BurnToken": "Phá hủy Token",
+        "BurnToken_V1": "Phá hủy Token",
+        "TransferTokenOwnership": "Chuyển quyền sở hữu",
+        "TransferTokenOwnership_V1": "Chuyển quyền sở hữu",
+        "DisableReIssue": "Chỉnh sửa kiểu token",
+        "DisableReIssue_V1": "Chỉnh sửa kiểu token",
+        "DexDeposit": "Nạp tiền vào ViteX",
+        "DexDeposit_V1": "Nạp tiền vào ViteX",
+        "DexWithdraw": "Rút tiền từ ViteX",
+        "DexWithdraw_V1": "Rút tiền từ ViteX",
+        "DexPlaceOrder": "Tạo Lệnh giao dịch ViteX",
+        "DexPlaceOrder_V1": "Tạo Lệnh giao dịch ViteX",
+        "DexCancelOrder": "Thu hồi Lệnh giao dịch ViteX",
+        "DexCancelOrder_V1": "Thu hồi Lệnh giao dịch ViteX",
+        "DexStakeForSuperVIP": "SVIP ViteX",
+        "DexStakeForSuperVIP_V1": "VIP ViteX",
+        "DexConfigMarketAgents": "Xác nhận Ủy thác",
+        "DexConfigMarketAgents_V1": "Xác nhận Ủy thác",
+        "DexOpenNewMarket": "Niêm yết Token ViteX",
+        "DexOpenNewMarket_V1": "Niêm yết Token ViteX",
+        "DexStakeForVIP": "VIP ViteX",
+        "DexStakeForVIP_V1": "VIP ViteX",
+        "DexStakeForMining": "Đặt cược ViteX",
+        "DexStakeForMining_V1": "Đặt cược ViteX",
+        "CreateContractRequest": "Tạo Hợp đồng",
+        "TransferRequest": "Chuyển",
+        "ReIssueRequest": "Chuyển",
+        "Response": "Chuyển",
+        "ResponseFail": "Chuyển",
+        "RefundByContractRequest": "Chuyển",
+        "GenesisResponse": "Khởi nguyên",
+        "FullNodeStake": "Stake cho Full Node",
+        "FullNodeCancelStake": "Rút Stake Full Node",
+        "UpdateSBPRewardWithdrawAddress": "Sửa Địa chỉ rút thưởng SBP"
+    },
+    "btn": {
+        "cancel": "Hủy",
+        "login": "Đăng nhập",
+        "imported": "Truy nhập Tài khoản",
+        "back": "Quay lại",
+        "submit": "Gửi",
+        "next": "Bước Tiếp theo",
+        "understand": "Tôi đã hiểu",
+        "edit": "Chỉnh sửa",
+        "reReg": "Đăng ký lại",
+        "otherProd": "Sử dụng các Sản phẩm khác của Vite",
+        "known": "Tôi đã hiểu"
+    },
+    "hint": {
+        "noNet": "Không tìm thấy hệ thống mạng",
+        "pwErr": "Mật khẩu sai!",
+        "pwEmpty": "Không được để trống mật khẩu!",
+        "noData": "Không có dữ liệu",
+        "err": "Đã xảy ra lỗi",
+        "request": "{name} đã gửi yêu cầu, vui lòng đợi",
+        "copy": "Sao chép thành công",
+        "copyShare": "Sao chép chia sẻ link thành công!",
+        "addrFormat": "Sai định dạng địa chỉ",
+        "amtFormat": "Sai định dạng số lượng",
+        "transSucc": "Giao dịch thành công!",
+        "insufficientBalance": "Không đủ số dư",
+        "validMaxDigit": "Tối đa {digit} decimal",
+        "nodeErr": "Xảy ra lỗi fullnode, vui lòng thử lại sau.",
+        "bigger0": "Số lượng phải lớn hơn 0",
+        "operateSuccess": "Thao tác Thành công",
+        "operateFail": "Thao tác Thất bại",
+        "unreceived": "Mở khóa ví trước khi sử dụng",
+        "unreceivedNum": "Vui lòng đăng nhập để xác nhận giao dịch, hiện tại bạn có {number} giao dịch chưa nhận"
+    },
+    "beforeUse": {
+        "title": "Đọc kỹ trước khi sử dụng",
+        "text1": "Để đảm bảo an toàn cho tài sản của bạn, chức năng tạo tài khoản tạm thời không được hỗ trợ trên ví web. Vui lòng tải xuống Ứng dụng Vite để tạo tài khoản. Nền tảng Vite muốn cảnh báo bạn rằng nếu bạn truy cập trang web lừa đảo hoặc mất bản sao lưu cụm từ mở khoá, công ty chúng tôi không thể hỗ trợ khôi phục tài sản của bạn.",
+        "text2": "Xin lưu ý rằng các trang web của chúng tôi không lưu trữ khóa riêng hoặc seed phrase. Do đó, bạn sẽ cần khôi phục tài khoản của mình thông qua seed phrase nếu bạn quyết định thay đổi trình duyệt, xóa cookie cục bộ hoặc thay đổi PC.",
+        "text3": "Vui lòng thực hiện các biện pháp phòng ngừa thích hợp để đảm bảo rằng bạn ghi lại chính xác và lưu trữ an toàn seed phrase. Ngay cả một lỗi nhỏ nhất cũng sẽ dẫn đến việc bạn không thể khôi phục thành công địa chỉ của mình."
+    },
+    "preview": {
+        "t": "Phiên bản {version}",
+        "txt1": "x.vite.net là một nền tảng web tích hợp ví và sàn giao dịch, được sáng lập bởi Vite Labs.",
+        "txt2": "Bạn có thể quản lý và chuyển tài sản, giao dịch, nhận quota, đăng ký SBP và full-node, bỏ phiếu, phát hành token, đăng ký ViteX API, cấp phép giao dịch được ủy quyền, v. v.",
+        "txt3": "x.vite.net hỗ trợ cụm từ khôi phục ví, Ledger và ViteConnect.",
+        "v": ""
+    },
+    "pwdConfirm": {
+        "conf": "Mở chế độ không mật khẩu để bỏ qua nhập mật khẩu trong quá trình giao dịch. ",
+        "title": "Mật khẩu",
+        "placeholder": "Vui lòng điền mật khẩu ví",
+        "unlockAcc": "Vui lòng mở khóa {name}"
+    },
+    "quotaConfirm": {
+        "title": "Không đủ Quota",
+        "cancelContent": "Bạn không thể {operate} do không đủ hạn ngạch TPS. Để {operate} bạn cần thế chấp VITE để có hạn ngạch",
+        "goQuota": "Stake VITE",
+        "noOperate": "Chưa {operate} được"
+    },
+    "mnemonic": {
+        "title": "Cụm từ khôi phục ví",
+        "restore": "Khôi phục Tài khoản bằng Cụm từ khôi phục ví",
+        "record": "Tạo Seed phrase",
+        "prompt": "Mnemonic seed phrase là cách duy nhất để khôi phục ví của bạn. Vui lòng viết cụm từ khôi phục ví ra và lưu lại cẩn thân.",
+        "placeholder": "Vui lòng điền cụm từ khôi phục ví",
+        "empty": "Không để trống cụm từ khôi phục ví",
+        "error": "Cụm từ khôi phục ví sai. Vui lòng thử lại",
+        "hint": "Ví dụ: apple banana peach mango pear bonita ...",
+        "change": "Chuyển dùng cụm {len} từ khôi phục ví"
+    },
+    "setting": {
+        "title": "Thiết lập tài khoản",
+        "config": "Tổng quan",
+        "currency": "Tiền tệ mặc định",
+        "secure": "Bảo mật",
+        "gate": "Gateway Tuỳ chỉnh",
+        "rpcUrl": "Node",
+        "changeRpcUrl": "Thay đổi",
+        "changeRpcUrlDialog": {
+            "title": "Thay đổi Node",
+            "addCustomNode": "Thêm Node Tuỳ chỉnh",
+            "officialNode": "Node Chính thức",
+            "addNode": "Thêm Node",
+            "customNode": "Node Tuỳ chỉnh",
+            "deleteCustomNode": "Xóa",
+            "wrongNode": "Vui lòng nhập URL chính xác!",
+            "changeNodeSuccess": "Đã kết nối với node mới.",
+            "failedConnected": "Lỗi kết nối node",
+            "inputPlaceholder": "Vui lòng điền url node với wss."
+        },
+        "triggerGate": [
+            "Đóng",
+            "Mở"
+        ],
+        "gateHelp": "Bạn có thể tùy chỉnh cấu hình gateway của mình khi kích hoạt tính năng này. Hiện tại tính năng này chủ yếu dành cho các lập trình viên.",
+        "lang": "Ngôn ngữ",
+        "block": "Chiều cao hiện tại",
+        "version": "Phiên bản",
+        "service": "Dịch vụ Khách hàng",
+        "site": "Trang web chính thức của Vite",
+        "sys": "Trang chủ Hệ thống",
+        "open": "Vite Github",
+        "addAddr": "Thêm địa chỉ",
+        "addrList": "Quản lý Địa chỉ",
+        "setDefault": "Chọn Địa chỉ mặc định",
+        "autoLogout": "Thời gian Tự động Đăng xuất",
+        "noPass": "Bật chế độ không mật khẩu",
+        "explorer": "Block Explorer",
+        "netInfo": "Thông tin Mạng",
+        "logoutDescribe": "Tài khoản sẽ tự động đăng xuất khi bạn rời trang này",
+        "timeList": {
+            "5": "5 phút",
+            "10": "10 phút",
+            "30": "30 phút",
+            "60": "1 giờ",
+            "720": "12 giờ"
+        },
+        "theme": "Màu chủ đề",
+        "themeList": [
+            "Sáng",
+            "Tối"
+        ]
+    },
+    "create": {
+        "input": "Vui lòng nhập mật khẩu",
+        "again": "Xin vui lòng xác nhận mật khẩu",
+        "choose": "Chọn tài khoản",
+        "finish": "Xong",
+        "agreementPre": "Tôi đã đọc và đồng ý với điều khoản Dịch vụ và Quyền riêng tư của ViteX và Ví Vite",
+        "agreement": "Điều khoản Dịch vụ và Chính sách bảo mật",
+        "hint": {
+            "nameInput": "Vui lòng điền tên tài khoản",
+            "nameLong": "Tên không được vượt quá {long} ký tự",
+            "long": "Mật khẩu không được quá 32 ký tự",
+            "name": "Chỉ hỗ trợ tên tài khoản bằng tiếng Anh, tiếng Trung, chữ số và dấu gạch chân",
+            "consistency": "Vui lòng nhập lại một mật khẩu",
+            "pwFormat": "Sai định dạng mật khẩu. Mật khẩu chỉ nên chứa các chữ số, chữ cái và ký hiệu."
+        }
+    },
+    "startCreate": {
+        "notice": "Để đảm bảo an toàn cho tài sản của bạn, chức năng tạo tài khoản tạm thời không được hỗ trợ trên ví web. Vui lòng tải xuống Ứng dụng Vite để tạo tài khoản.",
+        "goLogin": "Đăng nhập",
+        "goDex": "Đi tới ViteX"
+    },
+    "keystore": {
+        "title": "Keystore",
+        "dragDrop": {
+            "text": "Kéo và thả tập tin ở đây",
+            "err1": "Nhập tập tin bất không hợp lệ!",
+            "err2": "Chỉ nhập một tập tin!",
+            "guide": "Mở thư mục để nhập",
+            "hint": "Lưu ý rằng đăng nhập bằng nhập tệp keystore có thể hỗ trợ tạo nhiều địa chỉ, trong trường hợp đa nền tảng, hãy sử dụng cụm từ ghi nhớ."
+        }
+    },
+    "tokenCard": {
+        "moreRecords": "Kiểm tra Lịch sử",
+        "others": "Khác",
+        "assetSpread": "Danh mục",
+        "saveSuccess": "Lưu thành công",
+        "heads": {
+            "name": "Tên",
+            "balance": "Số dư Ví",
+            "onroad": "Số lượng chưa nhận",
+            "gate": "Cổng ví Chuỗi chéo",
+            "totalExAmount": "Số dư Sàn",
+            "availableExAmount": "Số dư khả dụng Sàn",
+            "balanceTips": "Gửi on-chain khả dụng cho những người dùng muốn gửi giao dịch từ ví Vite của bạn đến các địa chỉ Vite khác",
+            "gateTips": "Trong phần \bcross-chain này, bạn có thể đổi coin/token khác vào mạng Vite. Nhấp vào nút 'Gửi tiền' để gửi tài sản vào Ví Vite của bạn. Nhấp vào nút 'Rút tiền' để chuyển tài sản của bạn sang các nền tảng khác. *Quá trình rút/nạp cross-chain có thể mất phí, và có giới hạn khi chuyển tiền.",
+            "availableExAmountTips": "Bạn có thể chuyển tài sản của mình giữa Vite Wallet và ViteX Exchange bằng cách nhấp vào nút 'Chuyển'. Thao tác này không phát sinh phí.",
+            "unreceivedTips": "Các khoản chưa nhận sẽ được tự động nhận sau khi đăng nhập"
+        },
+        "actionType": {
+            "SEND": "Gửi On-chain",
+            "RECEIVE": "Nạp",
+            "CHARGE": "Nạp",
+            "WITHDRAW": "Rút",
+            "EXTRANSFER": "Chuyển",
+            "EXRECRODS": "Lịch sử",
+            "RECRODS": "Lịch sử",
+            "EXCHARGE": "Nạp",
+            "EXWITHDRAW": "Rút"
+        },
+        "transferConfirm": {
+            "from": "Từ",
+            "to": "Đến",
+            "wallet": "Tài khoản Ví",
+            "dex": "Tài khoản Sàn",
+            "avaliableAmount": "Số dư"
+        },
+        "addToken": {
+            "title": "Thêm token",
+            "placeholder": "Hãy điền tên token hoặc TokenID",
+            "lTxt": "Hủy",
+            "rTxt": "Thêm"
+        },
+        "type": {
+            "native": "Token Native",
+            "crossGate": "Coin cross-chain"
+        },
+        "assetType": {
+            "TOTAL": "Tất cả Tài sản",
+            "EX": "Tài sản Sàn",
+            "WALLET": "Tài sản Ví"
+        },
+        "tokenInfo": {
+            "tabName": "Chi tiết",
+            "title": "Thông tin {tokenSymbol}",
+            "saveGate": "Lưu",
+            "labels": {
+                "tokenId": "TokenID",
+                "tokenName": "Tên",
+                "totalSupply": "Tổng cung",
+                "total": "Tổng lưu thông",
+                "overview": "Giới thiệu",
+                "type": "Loại",
+                "gate": "Cổng Cross-chain",
+                "website": "Trang web",
+                "whitePaper": "White Paper",
+                "explorer": "Trình duyệt",
+                "github": "Github",
+                "media": "Mạng Xã hội",
+                "crossType": "Cross-Chain",
+                "originType": "Native",
+                "viewmore": "Xem thêm"
+            },
+            "reIssuable": {
+                "true": "Có thể cấp lại",
+                "false": "Không thể cấp lại"
+            }
+        },
+        "gateInfo": {
+            "clickCustomer": "Gửi yêu cầu",
+            "name": "Tên Cổng kết nối",
+            "customer": "Dịch vụ Khách hàng",
+            "privacy": "Điều khoản sử dụng",
+            "clickPrivacy": "Điều khoản sử dụng chính thức của cổng {gate}",
+            "gateSetting": "Cấu hình Cổng",
+            "tabName": "Thông tin chi tiết Cổng",
+            "selfdefined": "Tùy chỉnh Cổng",
+            "officalNet": "Trang web",
+            "introduction": "Mô tả",
+            "token": "Ngày phát hành",
+            "setting": "Giao diện Cổng",
+            "nodeDesc": "Hướng dẫn sử dụng",
+            "settingPlaceholder": "Vui lòng nhập địa chỉ liên kết cổng",
+            "nodeDescStr": "Chức năng này chỉ hoạt động đối với các coin cross-chain, không sử dụng chức năng này trên các token tích hợp. Trong khi đó, hãy cẩn thận với các liên kết gateway không quen thuộc. Bằng cách tiếp tục sử dụng nền tảng của chúng tôi, bạn đồng ý và thừa nhận rằng Vite Labs sẽ không chịu trách nhiệm về việc mất mát quỹ của bạn và các hậu quả tiêu cực khác. Điền vào liên kết gateway bên dưới nếu bạn cần sử dụng, liên kết sẽ có hiệu lực sau khi bạn nhấn lưu."
+        },
+        "depositRecord": {
+            "tabName": "Lịch sử Nhận",
+            "heads": [
+                "Thời gian",
+                "Số lượng",
+                "Trạng thái",
+                "{outChain} Hash",
+                "vite Hash",
+                "Phí"
+            ],
+            "statusMap": {
+                "OPPOSITE_PROCESSING": "{outChain} đợi xác nhận {confirms}",
+                "OPPOSITE_CONFIRMED_FAIL": "Xử lý {outChain} không thành công",
+                "OPPOSITE_CONFIRMED": "Cổng nhận",
+                "TOT_CONFIRMED": "Đã hoàn thành",
+                "BELOW_MINIMUM": "Nạp tiền thất bại",
+                "TOT_PROCESSING": "Chuỗi VITE đang chờ xác nhận"
+            }
+        },
+        "withdrawRecord": {
+            "tabName": "Lịch sử chuyển tiền",
+            "heads": [
+                "Thời gian",
+                "Số lượng",
+                "Trạng thái",
+                "vite Hash",
+                "{outChain} Hash",
+                "Phí"
+            ],
+            "statusMap": {
+                "TOT_PROCESSING": "Chuỗi VITE chưa được xác nhận {confirms}",
+                "TOT_CONFIRMED": "VITE đã xác nhận",
+                "TOT_EXCEED_THE_LIMIT": "Số tiền chuyển vượt quá giới hạn",
+                "OPPOSITE_PROCESSING": "{outChain} đợi xác nhận",
+                "OPPOSITE_CONFIRMED": "Đã hoàn thành",
+                "WRONG_WITHDRAW_ADDRESS": "Địa chỉ chuyển không đúng"
+            }
+        },
+        "charge": {
+            "title": "Cross-Chain Receive Funds",
+            "addrErr": "Đã xảy ra lỗi với node cổng, vui lòng kiểm tra cài đặt mạng của bạn",
+            "addressTitle": "Địa chỉ Người nhận",
+            "labelTips": "(Vui lòng sử dụng '{labelName}' này với địa chỉ nhận của bạn, nếu không tài sản của bạn sẽ mất",
+            "labelCodeTips": "Vui lòng quét mã QR từ {labelName}",
+            "codeTips": "Quét mã QR để nạp. Vui lòng gửi tài sản bằng ví hỗ trợ {tokenSymbol}",
+            "tips": [
+                "Bạn chỉ có thể gửi {tokenSymbol} qua địa chỉ được cung cấp bên dưới. Chỉ chấp nhận nhiều hơn {min} {tokenSymbol}.",
+                "Tài khoản sẽ cập nhật sau khi {confirmationCount} xác nhận mạng. Vui lòng đợi.",
+                "Vui lòng chọn đúng mạng chính nếu không token sẽ bị mất."
+            ],
+            "selectNetwork": "Chọn mạng"
+        },
+        "viteTips": "VITE only supports cross-chain functionality between the new ERC20 VITE (Contract Address: 0xadd5E881984783dD432F80381Fb52F45B53f3e70), BEP20 VITE and Native VITE Coin.",
+        "withdraw": {
+            "title": "Rút Cross-chain",
+            "btn": "Rút",
+            "balanceErrMap": {
+                "notEnough": "Không đủ số dư",
+                "overMax": "Số rút cần ít hơn {max}",
+                "lessMin": "Số rút không thể ít hơn {min}"
+            },
+            "feeTips": "Phí giao dịch được đặt bởi Nhà vận hành gateway",
+            "addressErr": "Định dạng địa chỉ không đúng",
+            "labels": {
+                "balance": "Số dư",
+                "address": "Địa chỉ nhận",
+                "amount": "Số lượng",
+                "fee": "Phí",
+                "all": "Tất cả"
+            },
+            "labelPlaceholder": "Hãy nhập {labelName}",
+            "amountPlaceholder": "Vui lòng nhập số lượng gửi không được nhỏ hơn {min}",
+            "addressPlaceholder": "Vui lòng nhập địa chỉ nhận {token}",
+            "successTips": "Yêu cầu giao dịch đã được gửi",
+            "failTips": "Đã xảy ra lỗi trong node gateway, vui lòng kiểm tra thiết lập mạng"
+        },
+        "nodeErr": "Node gateway không hợp lệ, vui lòng kiểm tra thiết lập gateway"
+    },
+    "viteExplorer": {
+        "title": "Vite Block Explorer"
+    },
+    "viteScanExplorer": {
+        "title": "ViteScan"
+    },
+    "wallet": {
+        "title": "Quản lý \bQuota",
+        "help": {
+            "title": "Tìm hiểu về Quota"
+        },
+        "transfer": "Gửi Tài sản",
+        "getTestToken": "Nhận Test Token",
+        "transDetail": "Chi tiết giao dịch",
+        "address": "Địa chỉ của tôi",
+        "fundFloat": "Đang chuyển giao",
+        "pend": "Đang chờ xử lý",
+        "inAddress": "Địa chỉ người nhận",
+        "sum": "Số lượng",
+        "remarks": "Memo",
+        "remarksLong": "còn {len} byte nữa",
+        "totalAsset": "Tài sản",
+        "placeholder": {
+            "amount": "Vui lòng nhập số lượng",
+            "remarks": "Vui lòng nhập memo",
+            "addr": "Vui lòng nhập địa chỉ"
+        },
+        "hint": {
+            "token": "VITE đã được gửi, vui lòng kiểm tra số dư tài khoản!",
+            "tErr": "Nhận test token thất bại!",
+            "amount": "Số lượng phải lớn hơn 0"
+        },
+        "trans": {
+            "powErr": "Đã có lỗi xảy ra khi run PoW, vui lòng thử lại",
+            "powTransErr": "Không đủ quota từ PoW, chúng tôi khuyên bạn nên stake VITE để nhận quota."
+        }
+    },
+    "walletMintage": {
+        "title": "Phát hành Token",
+        "address": "Địa chỉ phát hành",
+        "tokenName": "Tên Token",
+        "tokenSymbol": "Kí hiệu Token",
+        "totalSupply": "Tổng cung",
+        "decimals": "Decimal",
+        "isReIssuable": "Có thể phát hành lại",
+        "maxSupply": "Số cung tối đa",
+        "ownerBurnOnly": "Chỉ bị đốt bởi Chủ sở hữu",
+        "isOwnerBurnOnly": "Chỉ bị đốt bởi Chủ sở hữu",
+        "mint": "Xác nhận",
+        "tokenList": "Token Phát hành",
+        "submit": "Gửi",
+        "cancel": "Hủy",
+        "getListFail": "Không nhận được danh sách token, vui lòng thử lại sau",
+        "mintageConfirm": {
+            "title": "Kiểm tra Thông tin phát hành Token",
+            "balance": "Số dư",
+            "fee": "Phí phát hành",
+            "btn": "Xác nhận"
+        },
+        "reIssuableConfirm": {
+            "title": "Thay đổi thành Không thể phát hành",
+            "text": "Chắc chắn thay đổi {tokenName} thành trạng thái Không thể phát hành?"
+        },
+        "changeOwnerConfirm": {
+            "title": "Chuyển Quyền sở hữu",
+            "address": "Địa chỉ người nhận"
+        },
+        "issueConfirm": {
+            "title": "Tái phát hành",
+            "amount": "Số lượng",
+            "address": "Địa chỉ thụ hưởng",
+            "overAmount": "Số lần tái phát hành token vượt quá giới hạn trên"
+        },
+        "hint": {
+            "tokenName": "Tên token phải có 1- 40 ký tự bao gồm chữ hoa và chữ thường, dấu cách và dấu gạch chân. Không hỗ trợ khoảng trống và số.",
+            "tokenSymbol": "Ký hiệu token phải có 1-10 ký tự, chỉ hỗ trợ chữ in hoa và số.",
+            "success": "Phát hành Token thành công",
+            "fail": "Phát hành Token thất bại"
+        },
+        "err": {
+            "tokenNameFormat": "Định dạng tên Token không đúng",
+            "tokenNameNull": "Bắt buộc nhập tên token",
+            "tokenSymbolFormat": "Định dạng Ký hiệu token không đúng",
+            "tokenSymbolNull": "Bắt buộc nhập ký hiệu token",
+            "supplyMax": "Vượt quá số lượng token phát hành",
+            "totalSupplyFormat": "Sai định dạng Tổng cung",
+            "totalSupplyNull": "Bắt buộc nhập Tổng cung",
+            "maxSupplyNull": "Bắt buộc nhập số cung tối đa",
+            "maxSupplyMin": "Phải lớn hơn tổng cung",
+            "decimalsNull": "Yêu cầu nhập Decimal",
+            "decimalsFormat": "Sai định dạng decimal",
+            "decimalsMax": "Decimal quá lớn",
+            "maxSupplyFormat": "Sai định dạng Tổng cung đối đa"
+        }
+    },
+    "walletQuota": {
+        "title": "Quản lý Quota",
+        "help": {
+            "title": "Tìm hiểu về Quota"
+        },
+        "myQuota": "Quota của tôi",
+        "maxTxNum": "Số Tx tối đa",
+        "beneficialAddr": "Địa chỉ nhận Quota",
+        "fromAddr": "Địa chỉ khấu trừ",
+        "time": "Thời gian Đóng băng Stake",
+        "aboutDays": "Dự kiến {day} ngày",
+        "amountPlaceholder": "Vui lòng nhập số lượng stake, ít nhất {num} VITE",
+        "limitAmt": "Số lượng đặt cược không được ít hơn {num}.",
+        "addrPlaceholder": "Vui lòng điền địa chỉ nhận quota",
+        "inputWithdrawAmount": "Vui lòng điền địa chỉ rút",
+        "pledgeFail": "Thao tác thất bại",
+        "canclePledgeFail": "Thất bại",
+        "maturity": "Đã hết hạn stake!",
+        "minAmt": "Số tiền rút không thể ít hơn {num} VITE",
+        "gotoStake": "Vui lòng stake đủ VITE",
+        "maxAmt": "Số tiền rút phải trong khoảng [{minAmount}, {maxAmount}]",
+        "cancelLimitAmt": "Số lượng đặt cược không được ít hơn {num}",
+        "withdrawalStaking": "Rút token đã stake",
+        "myAddr": "Tôi",
+        "confirm": {
+            "help": {
+                "t1": "Quota là gì?",
+                "txt1": "Trong hệ thống Vite, người dùng không mua gas để trả phí cho giao dịch mà sử dụng tài nguyên tính toán thông qua mô hình hạn ngạch. Hạn ngạch là điều bắt buộc trong gửi giao dịch = hạn ngạch cơ bản (yêu cầu) + hạn ngạch (dữ liệu văn bản đính kèm), hạn ngạch bắt buộc để chấp nhận giao dịch = hạn ngạch cơ bản (phản hồi).\nGiao thức cấu hình tài nguyên dựa trên hạn ngạch này cho phép người dùng có được tài nguyên hạn ngạch cao hơn theo hai cách: Đặt cược VITE để có được hạn ngạch và chạy PoW.",
+                "t2": "Stake là gì?",
+                "txt2": "Trong hệ thống Vite, người dùng có thể thế chấp VITE để có được một lượng hạn ngạch nhất định. Số lượng tối thiểu để thế chấp là 134 VITE và không có giới hạn tối đa; trong khi đó, hệ thống Vite cũng hỗ trợ địa chỉ A thế chấp một phần VITE và phân bổ hạn ngạch cho địa chỉ B. Khi người dùng đăng ký thế chấp, VITE sẽ được gửi đến địa chỉ hợp đồng thông minh của Vite và chỉ người đăng ký thế chấp mới có quyền truy cập để quản lý số tiền đã thế chấp.",
+                "t3": "PoW là gì?",
+                "txt3": "Proof of Work (PoW), là một giao thức để xác nhận rằng bạn đã thực hiện một số lượng công việc nhất định và cũng là một biện pháp kinh tế để ngăn chặn sự tấn công DDoS và lạm dụng dịch vụ khác. Điều này đòi hỏi máy tính phải thực hiện tính toán điện toán nhất định. Trong hệ thống Vite, người dùng có thể nhận được hạn ngạch miễn phí bằng cách bấm run PoW và cũng có thể gửi giao dịch bằng hạn ngạch thu được mà không có bất kỳ thông tin chú thích nào."
+            },
+            "cancel": {
+                "describe": "Số lượng đã stake của bạn là {amount}, vui lòng xác nhận rút.",
+                "rightBtn": "Sẵn sàng",
+                "leftBtn": "Hủy bỏ Rút"
+            },
+            "submit": {
+                "describe": "Đảm bảo stake {amount} VITE để đạt được quota, bạn chỉ có thể rút sau 3 ngày sau khi hết hạn \bstake.",
+                "rightBtn": "Xác nhận",
+                "leftBtn": "Hủy"
+            }
+        },
+        "list": {
+            "title": "Stake của tôi",
+            "total": "Đang đặt cược {amount} VITE",
+            "amount": "Số lượng",
+            "withdrawTime": "Ngày đáo hạn dự kiến",
+            "unexpired": "Tạm thời chưa thể thực hiện rút token thế chấp cho đến ngày đáo hạn",
+            "vip": "Hành động đặt cược để mặc định mở VIP trên sàn ViteX, vui lòng truy cập trang sàn giao dịch ViteX để hủy VIP",
+            "mining": "Sản phẩm stake này là stake bằng khai thác trên ViteX, vui lòng truy cập trang Khai thác ViteX để huỷ stake",
+            "other": "Sản phẩm stake này được stake bằng cách khác và không hỗ trợ huỷ stake tại đây"
+        }
+    },
+    "walletTransList": {
+        "title": "Giao dịch",
+        "tType": {
+            "title": "Loại",
+            "symbol": "Loại"
+        },
+        "status": {
+            "title": "Trạng thái",
+            "unconfirmed": "Chưa xác nhận",
+            "confirms": "Đang xác nhận",
+            "confirmed": "Đã xác nhân"
+        },
+        "timestamp": "Mốc thời gian",
+        "tAddress": "Địa chỉ",
+        "sum": "Số lượng"
+    },
+    "walletFullNode": {
+        "title": "Full Node",
+        "help": {
+            "title": "Giới thiệu",
+            "t1": "Danh mục",
+            "txt1": "[Số node đã đăng ký] Số lượng các full node được đăng ký với địa chỉ hiện tại",
+            "txt2": "[Số node đang hoạt động] Số lượng các full node đang hoạt động đã được đăng ký với địa chỉ hiện tại",
+            "txt3": "[Số node đang nhận thưởng] Số node đang nhận thưởng",
+            "t2": "Nhiều Full Node có thể được đăng ký với cùng một địa chỉ, nhưng mỗi node phải được stake riêng ít nhất 10.000 VITE; Khi tính Phần thưởng cho node hoạt động, nếu số tiền stake/10000 là số lớn hơn hoặc bằng số node đang hoạt động, tất cả các node đang hoạt động sẽ được thưởng; Nếu số\b token /10000 là số nguyên nhỏ hơn số node đang hoạt động, thì số node được thưởng bằng tổng số nguyên đó.",
+            "t3": "Việc tính toán phần thưởng bỏ phiếu không phụ thuộc vào số lượng node, mà số token stake."
+        },
+        "confirmText": "Xác nhận stake {amount} VITE, việc\b stake có thể bị hủy sau {days} ngày",
+        "addQuota": {
+            "address": "Địa chỉ Stake",
+            "stakeDays": "Thời gian Stake",
+            "placeholder": "Stake tối thiểu {min} VITE",
+            "stakingSuspend": "Tạm dừng Stake"
+        },
+        "quotaContent": {
+            "onlineReward": "Phần thưởng Node hoạt động",
+            "voteReward": "Phần thưởng Vote",
+            "yesterday": "hôm qua",
+            "all": "VITE tích luỹ: {num}",
+            "nodeInfo": "Thông tin Node",
+            "onlineNodes": "Node Đang hoạt động",
+            "rewardNodes": "Phần thưởng Node",
+            "stakeAmount": "Node Stake"
+        }
+    },
+    "walletSBP": {
+        "title": "SBP",
+        "help": {
+            "title": "Về SBP",
+            "text": "SBP (Snapshot Block Producer) là node có quyền tạo khối, bạn có thể đăng ký trở thành ứng cử viên SBP bằng cách \bstake một lượng VITE nhất định, mỗi vòng (khoảng 75 giây) sẽ bầu ra 25 SBP, các SBP sẽ được bầu chọn từ ngẫu nhiên 23 trong số 25 node ứng cử viên hàng đầu, cộng với 2 trong số các node ứng viên ngẫu nhiên xếp thứ 26-100 trong danh sách. 50% phần thưởng tạo khối sẽ được phân bổ cho node tạo khối, 50% còn lại sẽ được phân bổ cho các node được xếp hạng trên 100 như phần thưởng bỏ phiếu. Một địa chỉ đăng ký (địa chỉ stake có thể đăng ký nhiều node tạo khối (tên node), không thể sử dụng tên node nếu tên node đã được đăng ký bởi một địa chỉ khác. Một tên node có thể chuyển đổi địa chỉ tạo khối, tuy nhiên, địa chỉ tạo khối không thể chuyển đổi tên node đã được sử dụng khác."
+        },
+        "register": "Đăng ký SBP",
+        "cancel": "Hủy SBP",
+        "cancelBtn": "Hủy",
+        "rewardBtn": "Yêu cầu nhận thưởng",
+        "noReward": "Không có phần thưởng",
+        "rewardConfirm": {
+            "title": "Yêu cầu nhận thưởng",
+            "describe1": "Phần thưởng có sẵn để yêu cầu nhận sẽ được cập nhật vào lúc 12:00:00 (UTC +7) mỗi ngày, bạn có thể yêu cầu nhận thưởng từ {time}",
+            "describe2": "Truy vấn chi tiết phần thưởng khai thác, bạn có thể",
+            "describe3": "bấm vào đây",
+            "describe4": "Phần thưởng sẽ được gửi đến địa chỉ Ví Vite Web của bạn sau khi gửi yêu cầu khiếu nại, vui lòng kiểm tra tại Trang chủ của Ví. Lưu ý: Không lặp lại hành động yêu cầu.",
+            "leftBtn": "Khi khác",
+            "rightBtn": "Nhận tất cả"
+        },
+        "confirm": {
+            "title": "Đăng ký trở thành Ứng cử viên SBP",
+            "describe": "{amount} VITE của địa chỉ hiện tại sẽ bị khóa khoảng 90 ngày khi bạn gửi đăng ký, token sẽ được trả về địa chỉ stake sau khi được mở khóa",
+            "leftBtn": "Chưa đăng ký",
+            "rightBtn": "Sẵn sàng đăng ký",
+            "edit": {
+                "title": "Thay đổi Thông tin SBP",
+                "newBlockProducer": "vui lòng nhập địa chỉ tạo khối mới",
+                "newRewardAddress": "vui lòng nhập địa chỉ rút phần thưởng mới",
+                "changeBlockProducer": "Địa chỉ Tạo Block",
+                "changeRewardAddress": "Địa chỉ rút thưởng",
+                "btn": "Xác nhận Thay đổi"
+            }
+        },
+        "section1": {
+            "title": "Phiếu đăng ký",
+            "nodeName": "Tên Node",
+            "producerAddr": "Địa chỉ Tạo Block",
+            "rewardWithdrawAddress": "Địa chỉ rút thưởng",
+            "quotaAddr": "Địa chỉ Đặt cược",
+            "quotaTime": "Thời gian Đặt cược",
+            "time": "7776000 khối snapshot (khoảng 90 ngày)",
+            "confirmBtn": "Gửi",
+            "namePlaceholder": "Vui lòng điền tên node",
+            "nameHint": "Trong vòng 40 ký tự, hỗ trợ các chữ cái tiếng Anh (cả chữ hoa và chữ thường), số, '_' '.'",
+            "nameErr": "Tên node không hợp lệ",
+            "nameUsed": "Tên node bị trùng",
+            "addrPlaceholder": "Vui lòng nhập địa chỉ tạo khối snapshot",
+            "addrHint": "Địa chỉ tạo thông báo khối phải là fullnode đang hoạt động",
+            "addrErr": "Địa chỉ không hợp lệ",
+            "addrUsed": "Địa chỉ bị trùng",
+            "registerSuccess": "Đã gửi yêu cầu đăng ký",
+            "registerFail": "Yêu cầu đăng ký thất bại"
+        },
+        "section2": {
+            "title": "Thông tin Đăng ký",
+            "update": "Điều chỉnh",
+            "updateFail": "Không thể gửi yêu cầu điều chỉnh",
+            "cancel": "Thu hồi",
+            "cancelFail": "Không thể gửi yêu cầu thu hồi",
+            "expireDate": "Ngày đáo hạn: {time}",
+            "cancelConfirm": {
+                "title": "Thu hồi đăng ký SBP",
+                "describe": "Số token stake sẽ được trả lại cho địa chỉ đặt cược của bạn sau khi thu hồi, để trở thành SBP bạn phải gửi lại đơn đăng ký"
+            }
+        }
+    },
+    "walletVote": {
+        "title": "Vote",
+        "help": {
+            "title": "Giới thiệu \bVote",
+            "text": "Bạn có thể tham gia và bỏ phiếu cho 25 SBP (Nhà sản xuất khối Snapshot), mỗi vòng bỏ phiếu kéo dài 75 giây, số phiếu tương đương với số lượng VITE sở hữu bởi địa chỉ bỏ phiếu, lựa chọn mặc định là lựa chọn của vòng bỏ phiếu trước, 23 SBP sẽ được chọn ngẫu nhiên trong số 25 node ứng cử viên hàng đầu, cộng với 2 node ngẫu nhiên trong số các node ứng cử xếp thứ 26 - 100 trong danh sách, tổng cộng 25 SBP."
+        },
+        "toReward": "Phần thưởng của tôi",
+        "voting": "Bỏ phiếu",
+        "search": "Vui lòng nhập tên node hoặc địa chỉ tạo khối",
+        "addrNoExistErr": "Bạn không thể bỏ phiếu bây giờ vì tài khoản không có lịch sử giao dịch",
+        "revokeVoting": "Hủy bỏ bỏ phiếu",
+        "section1": {
+            "title": "Số phiếu của tôi",
+            "head": [
+                "Tên",
+                "Trạng thái",
+                "Số phiếu của tôi",
+                "Trạng thái bỏ phiếu",
+                "Hành động"
+            ],
+            "nodeStatusMap": {
+                "1": "Hoạt động",
+                "2": "Không hoạt động"
+            },
+            "voteStatusMap": {
+                "voted": "Bỏ phiếu thành công",
+                "voting": "Bỏ phiếu",
+                "canceling": "Đang thu hồi bỏ phiếu",
+                "voteNotWork": "Đã thu hồi bỏ phiếu"
+            },
+            "hoverHelp": "Bạn đã thu hồi phiếu {nodeName}, bạn có thể bỏ phiếu lại trực tiếp hoặc hủy bỏ biểu quyết của mình. Nếu bạn không làm như vậy, kết quả bỏ phiếu ban đầu của bạn sẽ được phục hồi sau khi {nodeName} đăng ký lại",
+            "confirm": {
+                "cancelText": "Chưa hoàn thành",
+                "submitText": "Xác nhận"
+            },
+            "revoke": "Đang thu hồi",
+            "operateBtn": "Thu hồi",
+            "cancelVoteErr": "Thu hồi thất bại, vui lòng thử lại"
+        },
+        "section2": {
+            "title": "Ứng cử viên SBP",
+            "head": [
+                "Xếp hạng",
+                "Tên node",
+                "Địa chỉ",
+                "Bình chọn",
+                "Thực thi"
+            ],
+            "confirm": {
+                "normal": {
+                    "content": "Bạn chỉ được bầu chọn cho một SBP, bạn có chắc muốn bình chọn cho {name}?",
+                    "cancelText": "Chưa",
+                    "submitText": "Sẵn sàng"
+                },
+                "cover": {
+                    "content": "Bạn đã bầu chọn cho {nodeName}, bạn có chắc chắn thực hiện bầu chọn này?",
+                    "cancelText": "Xác nhận",
+                    "submitText": "Hủy"
+                }
+            },
+            "noSearchData": "Không tìm thấy nội dung, vui lòng thử lại",
+            "operateBtn": "Bỏ phiếu",
+            "voteErr": "Bỏ phiếu thất bại, vui lòng thử lại"
+        }
+    },
+    "assets": {
+        "title": "Tài sản",
+        "notice": {
+            "title": "Thông báo Quan trọng",
+            "contentProvider": "Dịch vụ này được cung cấp bởi {gate}.",
+            "contentOther": "Bạn đồng ý và thừa nhận rằng Vite Labs sẽ không chịu trách nhiệm cho bất kỳ hậu quả tiêu cực nào gây ra bởi {gate}. Nền tảng Vite không tham gia vào bất kỳ phần nào trong mối quan hệ có thể phát sinh giữa {gate} và người dùng nền tảng Vite",
+            "contentAgree": "Bằng cách tiếp tục sử dụng dịch vụ của {gate}, bạn đồng ý và thừa nhận",
+            "agreement": "Điều khoản dịch vụ, Điều kiện giao dịch và Chính sách bảo mật của {gate}",
+            "contentUngree": "Vui lòng đồng ý với điều khoản này trước khi sử dụng dịch vụ của {gate}",
+            "hint": "Liên hệ với nhóm dịch vụ khách hàng của {gate} nếu bạn gặp bất kỳ vấn đề nào trong quá trình thanh toán.",
+            "next": "Xác nhận và Tiến hành"
+        },
+        "vb": {
+            "title": "ViteConnect",
+            "closeAlert": "đóng",
+            "connect": {
+                "tips": "Quét mã QR bằng Ứng dụng ví Vite"
+            },
+            "confirm": {
+                "tips": "Vui lòng xác nhận giao dịch trên ứng dụng ví Vite"
+            },
+            "start": {
+                "scan": "Quét mã QR bằng Ứng dụng ví Vite",
+                "downloadTips": "Bạn chưa có ứng dụng ví Vite? ",
+                "download": "Tải xuống tại đây"
+            },
+            "accountName": "Địa chỉ ViteConnect"
+        },
+        "ledger": {
+            "title": "Thiết bị Ledger",
+            "accountName": "Ví Ledger",
+            "verifyAddress": "Xác thực địa chỉ",
+            "closeAlert": "Hủy",
+            "start": {
+                "title": "Ví được hỗ trợ: Ledger Nano S\nLedger Nano X",
+                "connectError": "Lỗi kết nối?",
+                "introduction": "Hướng dẫn Sử dụng & Cài đặt Ứng dụng",
+                "introductionUrl": "https://docs.vite.org/vite-docs/tutorial/ledger-install.html",
+                "connectErrorUrl": "https://support.ledger.com/hc/en-us/articles/115005165269-Connection-issues-with-Windows-or-Linux"
+            },
+            "connectWithUSB": "Sử dụng USB",
+            "connectWithBlu": "Sử dụng Bluetooth",
+            "connectLedger": "Kết nối Ledger",
+            "connect": {
+                "title": "Địa chỉ được chọn",
+                "tips": "Chọn một địa chỉ để sử dụng:",
+                "selectConnectType": "Chọn loại kết nối: (Bluetooth chỉ được hỗ trợ trên Ledger Nano X)",
+                "cancelSelect": "Chọn thiết bị để kết nối",
+                "connectError": "Kết nối thất bại. Hãy xác nhận Vite app đang mở trên thiết bị",
+                "interfaceNotAvailable": "Kết nối thất bại. Vui lòng kiểm tra cáp USB được kết nối. Nếu bạn kết nối qua Bluetooth, hãy tắt Bluetooth và bật lại",
+                "receiveBlockSuccess": "Đã nhận thành công {num} giao dịch",
+                "introduction": {
+                    "1": {
+                        "title": "Bước 1: ",
+                        "content": "Kết nối thiết bị Ledger và nhập mã PIN"
+                    },
+                    "2": {
+                        "title": "Bước 2: ",
+                        "content": "Mở Vite app trên Ledger"
+                    }
+                }
+            },
+            "addressSelect": {
+                "index": "Chỉ số",
+                "address": "Địa chỉ",
+                "balance": "Số dư",
+                "unreceived": "Đang chuyển giao",
+                "nextPage": "Trang tiếp theo",
+                "prePage": "Trang cuối",
+                "confirm": "Xác nhận",
+                "unUsedAccount": "Mới"
+            },
+            "confirm": {
+                "tips": "Hãy xác nhận giao dịch trên thiết bị Ledger",
+                "verifyAddress": "Hãy xác nhận địa chỉ trên thiết bị Ledger của bạn",
+                "alert": "Cảnh báo",
+                "alertContent": "Địa chỉ đã bị từ chối trên thiết bị Ledger. Vui lòng xác minh lại nếu địa chỉ này khớp với địa chỉ được hiển thị trên thiết bị Ledger của bạn. Nếu có, hãy bỏ qua thông báo này và tiếp tục xác nhận giao dịch, nếu không, KHÔNG gửi tài sản đến địa chỉ và thoát ra ngay lập tức.",
+                "alertLeftBtn": "Tôi xác nhận địa chỉ đã trùng khớp",
+                "alertRightBtn": "Địa chỉ không khớp. Thoát ra!",
+                "userCancel": "Giao dịch đã bị hủy trên Ledger",
+                "userCancelByWeb": "Bạn đã hủy giao dịch trong ví Vite. Trong trường hợp này, giao dịch sẽ bị hủy bỏ và không bao giờ được chuyển sang blockchain ngay cả khi nó được xác nhận trên thiết bị Ledger của bạn."
+            }
+        },
+        "vitePassport": {
+            "title": "VitePassport",
+            "subtitle": "VitePassport là MetaMask của chuỗi VITE",
+            "help": "Vấn đề kết nối",
+            "helpLink": "https://t.me/vite_vn",
+            "connect": "Kết nối",
+            "notDetected": "Không thể phát hiện VitePassport. Vui lòng kiểm tra xem nó đã được cài đặt và kích hoạt hay chưa."
+        },
+        "invite": {
+            "inviteTitle": "Mời bạn bè",
+            "receiveInviteTitle": "Sử dụng mã giới thiệu",
+            "myCode": "Mã giới thiệu của tôi: ",
+            "codeLable": "Mã giới thiệu",
+            "invited": "Bạn đã chấp nhận lời mời, mã giới thiệu của bạn là: ",
+            "genCode": "Tạo mã giới thiệu",
+            "cost": "Chi phí",
+            "formatErr": "Sai định dạng mã giới thiệu",
+            "noResult": "Không có kết quả tìm kiếm, vui lòng thử lại",
+            "successToast": "Đã gửi yêu cầu",
+            "failToast": "Gửi yêu cầu thất bại",
+            "notEnough": "Số dư sàn không đủ",
+            "avaliable": "Số dư",
+            "inviteNum": "Đã mời",
+            "inviteBenifit": "Thu nhập Khai thác giới thiệu",
+            "inviteRule": "Quy tắc",
+            "ruleItems": [
+                "Bạn có thể chi <span class='strong'> 100 VITE </span> để tạo mã giới thiệu. Số VITE đó sẽ được đưa vào nhóm cổ tức và phân phối cho chủ sở hữu VX",
+                "Người mời sẽ nhận được <span class='strong'> 5% </span> từ phí giao dịch khai thác người được mời và <span class='strong'> 2,5% </span> từ phí khai thác tạo thanh khoản của người được mời"
+            ],
+            "receiveRuleItems": [
+                "Người dùng được mời sẽ nhận thêm <span class='strong'> 2,5% </span> phần thưởng khai thác bằng giao dịch và <span class='strong'>1,25% </span> phần thưởng khai thác bằng tạo thanh khoản",
+                "Giảm <span class='strong'>10% </span> phí giao dịch với mã giới thiệu"
+            ]
+        }
+    },
+    "walletConversion": {
+        "title": "Chuyển đổi VITE",
+        "help": {
+            "title": "Hiểu thêm về Chuyển đổi VITE",
+            "text": "Bạn có thể di chuyển token ERC20 sang VITE vào chức năng chuyển đổi TestNet bằng VITE của chúng tôi. Trong TestNet, bỏ phiếu bầu của bạn cho các SBP chính thức để nhận phần thưởng, tỷ lệ phần thưởng hàng năm có thể đạt 20%.  ERC20 VITE của bạn sẽ được chuyển đến địa chỉ đen Ethereum: {blackAddr}, bạn sẽ nhận được cùng một lượng VITE tại địa chỉ Vite của bạn khi địa chỉ đen Ethereum đã nhận giao dịch và xác nhận. Khi bạn đang trong quá trình chuyển đổi, hãy xác nhận rằng có đủ VITE và ETH (cho phí gas) trong Ethereum của bạn địa chỉ của ví Vite."
+        },
+        "gas": "Phí Khai thác",
+        "record": "Lịch sử Chuyển đổi",
+        "aboutPrice": "Khoảng {amount} ETH",
+        "note": "Xin vui lòng chờ sau thực hiện chuyển đổi. Bạn sẽ nhận được VITE đã chuyển đổi khi đủ 30 giao dịch xác nhận trên chuỗi Ethereum. Kiểm tra Lịch sử chuyển đổi để xem Hồ sơ giao dịch Ethereum.",
+        "exchange": {
+            "vite": "Chuyển đổi",
+            "viteAddr": "Địa chỉ nhận",
+            "viteAmount": "Số lượng chuyển đổi",
+            "btn": "Sẵn sàng chuyển đổi",
+            "success": "Chuyển đổi thành công. Thời gian xác nhận giao dịch của Ethereum kéo dài 20 phút và VITE sẽ được gửi về ví của bạn."
+        }
+    },
+    "tradeCenter": {
+        "title": "Sàn giao dịch",
+        "marketClosed": "Thị trường {symbol} đã bị đình chỉ",
+        "mergeDepth": "Nhóm",
+        "depthStep": "{step} chữ số",
+        "blocking": "Đã xảy ra lỗi mạng, vui lòng thử lại",
+        "supportMining": "Hợp lệ Khai thác bằng giao dịch và tạo thanh khoản",
+        "cmcHelp": "Xem VITE trên CoinMarketCap",
+        "supportTradeMining": "Đủ điều kiện để Khai thác bằng giao dịch",
+        "supportOrderMining": "Đủ điều kiện để Khai thác bằng tạo thanh khoản",
+        "zeroFee": "Không mất phí",
+        "buyMiningPrice": "Đủ điều kiện khai thác khi giá mua lớn hơn {price}",
+        "sellMiningPrice": "Đủ điều kiện khai thác khi giá bán nhỏ hơn {price}",
+        "operator": {
+            "noName": "Nhà vận hành Ẩn danh",
+            "overview": "Giới thiệu",
+            "txPair": "Cặp Giao dịch",
+            "confirmTitle": "Nhắc nhở rủi ro",
+            "confirmText": "Cặp giao dịch hiện tại là {symbol}. Hãy cẩn thận khi giao dịch. Đầu tư vào tài sản kỹ thuật số đi kèm với rủi ro cao. Trước khi đầu tư, vui lòng hiểu rõ tất cả các rủi ro khi đầu tư vào tài sản kỹ thuật số và tự mình đánh giá tính xác thực, tính hợp pháp và tính hợp lệ của tài sản kỹ thuật số. Hãy thận trọng với các quyết định đầu tư và chịu trách nhiệm về sản của chính mình.",
+            "address": "Địa chỉ Nhà vận hành",
+            "name": "Tên Nhà vận hành"
+        },
+        "operatorTxPair": {
+            "title": "Chi tiết Cặp giao dịch",
+            "tokenTab": "Chi tiết Token",
+            "operatorTab": "Chi tiết về Nhà vận hành"
+        },
+        "depthBuyMiningPrice": "Vùng khai thác trên",
+        "depthSellMiningPrice": "Vùng khai thác dưới",
+        "inMiningRange": "Vùng khai thác"
+    },
+    "trade": {
+        "more": "Thêm",
+        "search": "Tìm kiếm",
+        "txPair": "Cặp",
+        "price": "Giá",
+        "upDown": "% thay đổi",
+        "txNum": "Khối lượng",
+        "quantityTitle": "Tổng({quantity})",
+        "priceTitle": "Giá({price})",
+        "amountTitle": "Số lượng({amount})",
+        "quantityTable": "Số lượng",
+        "amountTable": "Khối lượng",
+        "amount": "Tổng",
+        "newOrderSuccess": "Đã gửi yêu cầu đặt lệnh",
+        "newOrderFail": "Lệnh thất bại",
+        "depthView": "Depth",
+        "klineView": "TradingView",
+        "txPairDetail": {
+            "title": "Chi tiết cặp giao dịch",
+            "24h": "24h",
+            "openPrice": "Mở",
+            "quantity": "Khối lượng Thị trường",
+            "amount": "Khối lượng cơ sở",
+            "status": "Trạng thái",
+            "latest": "Mới nhất",
+            "buy": "Giá mua",
+            "sell": "Giá bán",
+            "diff": "Chênh lệch"
+        },
+        "buy": {
+            "title": "Mua {token}",
+            "price": "Giá({token})",
+            "quantity": "Số lượng({token})"
+        },
+        "sell": {
+            "title": "Bán {token}",
+            "price": "Giá({token})",
+            "quantity": "Số lượng({token})"
+        },
+        "head": {
+            "latestPrice": "Giá lịch sử",
+            "updown": "Thay đổi 24h",
+            "highPrice": "Cao 24h",
+            "lowPrice": "Thấp 24h",
+            "quantity": "Khối lượng 24h",
+            "tokenName": "Token",
+            "originalSymbol": "Ký hiệu",
+            "gateway": "Cổng",
+            "website": "Trang web chính thức",
+            "explorer": "Block Explorer",
+            "overview": "Mô tả",
+            "tokenShow": "Abbr",
+            "tokenId": "Token ID",
+            "publisher": "Người phát hành",
+            "total": "Tổng",
+            "tokenDigit": "Decimal",
+            "publisherDate": "Ngày phát hành",
+            "type": "Trạng thái",
+            "tokenType0": "Phát hành có sẵn",
+            "tokenType1": "Chưa được phát hành"
+        },
+        "latestTx": {
+            "title": "Đơn hàng cũ",
+            "time": "Thời gian"
+        },
+        "depth": {
+            "buy": "Mua",
+            "sell": "Bán",
+            "all": "Tất cả",
+            "avgPrice": "Giá Tb:",
+            "sum": "Tổng {symbol}:"
+        },
+        "noData": {
+            "favorite": "Bạn chưa có token yêu thích",
+            "search": "Không tìm thấy kết quả"
+        },
+        "limitPrice": {
+            "title": "Giới hạn",
+            "fee": "Phí",
+            "adviseToSVip": "Nâng cấp lên SVIP, tận hưởng phí giao dịch cơ bản bằng 0",
+            "feeRuleWithSVip": "Phí điều hành * Chiết khấu mã giới thiệu. LƯU Ý: Việc điều chỉnh và giảm phí sẽ chỉ ảnh hưởng đến các lệnh mới, phí của các lệnh cũ vẫn được giữ nguyên.",
+            "text": "Trang này là trang xem trước của dữ liệu giao dịch. Vui lòng đăng nhập để giao dịch.",
+            "validAmount": "Khối lượng phải lớn hơn {amount}{token}",
+            "priceNotNull": "Số lượng không được để trống",
+            "amountNotNull": "Khối lượng không được để trống",
+            "quantityNotNull": "Giá trị không được để trống",
+            "cancelVip": "Hủy",
+            "openVip": "Trở thành VIP",
+            "dexFee": "Phí giao dịch cơ sở: {fee}",
+            "operatorFee": "Phí Operator: {fee}",
+            "vipFee": "Chiết khấu VIP: {fee}",
+            "inviteFeeDiscount": "Chiết khấu Mã giới thiệu: giảm {fee}",
+            "svipFee": "SVIP: 0% phí giao dịch cơ bản",
+            "feeRule": "(Phí giao dịch cơ sở - Chiết khấu VIP + Phí khu vực) * Chiết khấu Mã giới thiệu. CHÚ Ý: Việc điều chỉnh và chiết khấu phí sẽ chỉ ảnh hưởng đến các đơn hàng mới, các đơn hàng cũ vẫn giữ nguyên."
+        },
+        "proxy": {
+            "title": "Uỷ quyền Giao dịch",
+            "subTitle": "Uỷ quyền Giao dịch",
+            "successProxy": "Uỷ quyền thành công",
+            "failProxy": "Uỷ quyền thất bại",
+            "successCancelProxy": "Xóa ủy quyền thành công",
+            "failCancelProxy": "Xóa ủy quyền thất bại",
+            "info": "Giao dịch Uỷ quyền là gì?",
+            "new": "Bắt đầu Ủy quyền",
+            "active": {
+                "title": "Lịch sử Uỷ quyền",
+                "head": [
+                    "Địa chỉ được ủy quyền",
+                    "Cặp Giao dịch",
+                    "Hành động"
+                ],
+                "operate": [
+                    "Thêm cặp giao dịch",
+                    "Xoá cặp giao dịch",
+                    "Xóa tất cả ủy quyền"
+                ]
+            },
+            "passive": {
+                "title": "Lịch sử ủy quyền được chấp nhận",
+                "head": [
+                    "Địa chỉ Uỷ quyền",
+                    "Cặp Giao dịch"
+                ]
+            },
+            "dialog": {
+                "cancel": "Hủy",
+                "cancelAllTips": "Bạn có chắc chắn muốn xóa tất cả các ủy quyền trên {trustAddress} không?",
+                "rTxtMap": {
+                    "new": "Thêm",
+                    "add": "Thêm",
+                    "delete": "Xác nhận",
+                    "deleteAll": "Xác nhận"
+                },
+                "confirm": {
+                    "title": "Xác nhận Ủy quyền",
+                    "cancel": "Hủy",
+                    "ok": "Xác nhận"
+                },
+                "titleMap": {
+                    "new": "Bắt đầu Ủy quyền",
+                    "add": "Thêm Uỷ quyền",
+                    "delete": "Xoá Uỷ quyền",
+                    "deleteAll": "Xác nhận xoá uỷ quyền"
+                }
+            }
+        },
+        "openapi": {
+            "title": "API",
+            "myKey": "Khoá API của tôi",
+            "createTime": "Thời gian tạo",
+            "permissions": "Cặp giao dịch áp dụng",
+            "createKey": "Tạo Khoá API",
+            "deleteKey": "Xoá API",
+            "deleteAlert": "API hiện tại sẽ không thể truy cập được nữa nếu xác nhận để tiếp tục. Gói hiện tại sẽ được giữ lại và kích hoạt lại khi tạo Khóa API mới.",
+            "confirmDelete": "Xác nhận và Xoá",
+            "cancel": "Hủy",
+            "agentAddressStakingAmount": "Quota được stake Uỷ quyền",
+            "staking": "Stake",
+            "package": "Gói",
+            "expireTime": "Ngày hết hạn",
+            "callNum": "Kích hoạt/phút",
+            "callNumInfo": "{maxCount} giao dịch/phút",
+            "price": "Chi phí",
+            "priceInfo": "{price} VX/tháng",
+            "upgrade": "Nâng cấp",
+            "balanceAlert": "Không thể tạo vì số dư VITE nhỏ hơn {balanceLimit}.",
+            "noSupportForHardware": "Ví Cứng hiện không được hỗ trợ",
+            "tips": {
+                "title": "Chú ý",
+                "0": "ViteX đang phát hành API chính thức để cung cấp quyền truy cập vào thị trường và các dịch vụ giao dịch thời gian thực. Thực hiện theo các hướng dẫn bên dưới để có được khóa cá nhân API đúng cách.",
+                "0-step1": "1. Tạo API",
+                "0-step2": "2. Cho phép ủy quyền các cặp giao dịch đã chọn",
+                "0-step3": "3. Stake quota cho địa chỉ ủy quyền API",
+                "0-step4": "Xem <a href=\"https://vite.wiki/dex/api/dex-apis.html\" target=\"_blank\"> Tại liệu API </a> để được hỗ trợ thêm",
+                "1": "Một bộ API Key và Secret được phép cho cùng một địa chỉ tại bất kỳ thời điểm nào.",
+                "2": "Để tránh mất mát tài sản, Không tiết lộ Khóa truy cập và Khóa bí mật của bạn",
+                "3": "Gói API được đặt với gói cơ sở miễn phí ở mức 10 giao dịch mỗi phút theo mặc định, có sẵn các tùy chọn nâng cấp."
+            },
+            "stakingForQuota": {
+                "title": "Quota Uỷ quyền",
+                "agentAddress": "Địa chỉ Uỷ quyền",
+                "stakingAmount": "Số lượng Stake",
+                "ok": "Xác nhận"
+            },
+            "keyConfirm": {
+                "accessKey": "Khoá truy cập",
+                "secretKey": "Khoá Bí mật",
+                "agentAddress": "Địa chỉ Uỷ quyền",
+                "title": "Tạo API thành công",
+                "tips": {
+                    "title": "Thông báo Quan trọng",
+                    "0": "Để tránh mất mát tài sản, Không tiết lộ Khóa truy cập và Khóa bí mật của bạn.",
+                    "1": "Trong trường hợp mất khóa bí mật, hãy xóa API hiện tại và đăng ký khóa API mới."
+                },
+                "warn": "Khóa Bí mật chỉ hiển thị một lần và không thể tìm lại được nếu bị mất, vui lòng lưu cẩn thận."
+            },
+            "upgradeConfirm": {
+                "title": "Nâng cấp Gói",
+                "currentPackage": "Hiện tại",
+                "selectPackage": "Chọn mới",
+                "selectTime": "Có hạn tới",
+                "month": " Tháng",
+                "payAmount": "Tổng",
+                "balance": "Số dư VX"
+            }
+        }
+    },
+    "tradeAssets": {
+        "title": "Tài sản",
+        "search": "Vui lòng điền tên token",
+        "operate": "Hành động",
+        "all": "Tất cả",
+        "confirmTable": {
+            "title": "Chi tiết ghi nhận",
+            "heads": [
+                "Ngày",
+                "Token",
+                "Loại",
+                "Số lượng"
+            ]
+        },
+        "pwdConfirm": {
+            "cancelTxt": "Hủy"
+        },
+        "table": {
+            "heads": [
+                "Token",
+                "Tổng Số dư",
+                "Số dư Sàn",
+                "Đang đăt lệnh",
+                "Giá trị"
+            ],
+            "rowMap": {
+                "recharge": "Nạp vào Sàn",
+                "withdraw": "Rút về Ví",
+                "detail": "Chi tiết",
+                "sideMap": {
+                    "1": "Nạp",
+                    "2": "Rút"
+                }
+            }
+        },
+        "confirmrecharge": {
+            "successToast": "Nạp thành công",
+            "failToast": "Nạp không thành công",
+            "title": "Nạp vào Sàn",
+            "lable1": "Số dư Ví",
+            "lable2": "Số lượng Nạp",
+            "tips": "Số dư ví không đủ",
+            "placeholder": "Vui lòng nhập số lượng nạp",
+            "btn": "Nạp"
+        },
+        "confirmwithdraw": {
+            "successToast": "Rút thành công",
+            "failToast": "Rút không thành công",
+            "title": "Rút về Ví",
+            "lable1": "Số dư Khả dụng",
+            "lable2": "Số lượng Rút",
+            "tips": "Số dư ví không đủ",
+            "placeholder": "Vui lòng nhập số lượng rút",
+            "btn": "Rút"
+        },
+        "zero": "Ẩn Số dư nhỏ"
+    },
+    "tradeOpenOrders": {
+        "cancelErr": "Bạn đang lặp lại quá thường xuyên, vui lòng thử lại sau.",
+        "confirm": {
+            "successToast": "Thu hồi lệnh thành công",
+            "failToast": "Thu hồi lệnh thất bại",
+            "submitTxt": "Xác nhận thu hồi",
+            "cancelTxt": "Hủy",
+            "title": "Thu hồi lệnh",
+            "content": "Bạn chắc chắn muốn thu hồi lệnh này không?"
+        },
+        "title": "Lệnh đang mở",
+        "hint": {
+            "fdate": "Vui lòng chọn ngày bắt đầu",
+            "tdate": "Vui lòng chọn ngày kết thúc",
+            "dateErr": "Ngày kết thúc phải sau ngày bắt đầu",
+            "ftoken": "Vui lòng chọn token"
+        },
+        "side": {
+            "1": "Bán",
+            "0": "Mua"
+        },
+        "table": {
+            "heads": [
+                "Ngày",
+                "Cặp",
+                "Mặt",
+                "Giá",
+                "Số lượng",
+                "Đã hoàn thành",
+                "% hoàn thành",
+                "Trung bình",
+                "Tổng"
+            ],
+            "rowMap": {
+                "cancel": "Hủy"
+            }
+        }
+    },
+    "tradeOrderHistory": {
+        "title": "Lịch sử lệnh",
+        "hint": {
+            "fdate": "Vui lòng chọn ngày bắt đầu",
+            "tdate": "Vui lòng chọn ngày kết thúc",
+            "dateErr": "Ngày kết thúc phải sau ngày bắt đầu"
+        },
+        "side": {
+            "1": "Bán",
+            "0": "Mua"
+        },
+        "status": {
+            "1": "Đang diễn ra",
+            "2": "Đã hoàn thành",
+            "3": "Đã hủy",
+            "4": "Thất bại"
+        },
+        "confirmTable": {
+            "title": "Sổ Đặt hàng",
+            "heads": [
+                "Thời gian",
+                "Giá",
+                "Số lượng",
+                "Phí",
+                "Tổng"
+            ]
+        },
+        "table": {
+            "heads": [
+                "Ngày",
+                "Cặp",
+                "Mặt",
+                "Giá",
+                "Số lượng",
+                "Đã hoàn thành",
+                "Trung bình",
+                "Phí",
+                "Tổng",
+                "Trạng thái"
+            ],
+            "rowMap": {
+                "statusMap": {
+                    "1": "Đang đặt lệnh",
+                    "2": "Đã hoàn thành",
+                    "3": "Đã hủy",
+                    "4": "Thất bại"
+                },
+                "detail": "Chi tiết"
+            }
+        },
+        "filter": {
+            "start": "Từ",
+            "end": "Đến",
+            "type": "Loại",
+            "side": "Mặt",
+            "buy": "Mua",
+            "sell": "Bán",
+            "status": "Trạng thái",
+            "search": "Tìm kiếm",
+            "reset": "Thiết lập lại"
+        }
+    },
+    "tradeMining": {
+        "title": "Khai thác",
+        "addQuota": "Tạo stake mới",
+        "add": "Thêm",
+        "withdraw": "Thu hồi",
+        "withdrawList": "Danh sách rút",
+        "tbHead": {
+            "date": "Ngày",
+            "fee": "Phí giao dịch",
+            "mining": "Số lượng Khai thác",
+            "pledge": "Stake"
+        },
+        "txTitle": "Tổng Khai thác bằng Giao dịch",
+        "quotaTitle": "Tổng Khai thác bằng Stake",
+        "addHint1": "Tối thiếu 134 VITE mỗi một stake",
+        "addHint2": "Stake VITE sẽ có hiệu lực ngay sau khi ghi nhận. Stake có thể hủy sau 3 ngày",
+        "addHint3": "Số token stake sẽ không được mở khoá sau thời gian chờ đợi 7 ngày",
+        "withdrawHint1": "Bạn sẽ không thể khai thác VX nếu huỷ stake",
+        "withdrawHint2": "Mất 7 ngày để nhận lại số VITE đã unstake ở Số dư Sàn",
+        "addTitle": "Stake \u001dVITE để Khai thác",
+        "withdrawTitle": "Thu hồi VITE đã stake",
+        "addPlaceHolder": "Vui lòng nhập số lượng stake",
+        "withdrawPlaceHolder": "Vui lòng nhập số lượng stake, ít nhất 134 VITE",
+        "addBtn": "Xác nhận Stake",
+        "withdrawBtn": "Xác nhận rút stake",
+        "stakingBalance": "Số lượng Stake có thể thu hồi",
+        "hintTitle": "Thông báo quan trọng",
+        "comingHint": "Chức năng khai thác VX sẽ sớm ra mắt, hãy cùng chờ đón! Bạn có thể nhận VX theo năm cách: 1. Khai thác Giao dịch 2. Khai thác Niêm yết, 3. Khai thác Mã giao dịch, 4. Khai thác Stake, 5. Khai thác Tạo thanh khoản. Người dùng nắm giữ VX được hưởng các cổ tức.",
+        "more": "Tìm hiểu về Quy tắc khai thác VX",
+        "fee": "Phí giao dịch",
+        "todayTrade": "Chi tiết Khai thác",
+        "dividends": "Khối lượng khai thác dự kiến 24h",
+        "view": "Trang tổng quan Khai thác",
+        "inviteCount": "Giới thiệu",
+        "help": "Phí giao dịch hiện tại được hiển thị trên trang này chỉ chứa 0,2% phí giao dịch cơ bản của ViteX, xin lưu ý rằng phí điều hành sẽ được xem xét khi tính toán chi phí khai thác"
+    },
+    "tradeVip": {
+        "title": "VIP",
+        "open": "Trở thành VIP",
+        "cancel": "Huỷ {type}",
+        "help": {
+            "title": "Giới thiệu ViteX VIP"
+        },
+        "helpConfirm": {
+            "t1": "VIP",
+            "txt1": "Stake 10.000 VITE để trở thành VIP và nhận giảm 50% phí giao dịch. Số lượng stake có thể huỷ sau 30 ngày.",
+            "t2": "SVIP",
+            "txt2": "Stake 1 triệu VITE để trở thành SVIP và nhận giảm 100% phí giao dịch cơ bản. Số lượng stake có thể huỷ sau 30 ngày.",
+            "txt3": "Stake SVIP hỗ trợ cho bất kỳ địa chỉ tài khoản nào hợp lệ. Stake để trở thành SVIP!"
+        },
+        "vipConfirm": {
+            "cancelVip": "Huỷ VIP",
+            "openVip": "Trở thành VIP",
+            "openStakingAmount": "Stake token để trở thành VIP",
+            "cancelStakingAmount": "Số dư Stake Khả dụng",
+            "noBalance": "Không đủ số dư",
+            "openHint": "Bạn sẽ được khấu trừ 0,1% phí giao dịch khi là VIP. Việc \bstake 10.000 VITE có thể được rút sau 30 ngày.",
+            "cancelHint": "Trạng thái VIP sẽ bị hủy ngay lập tức.",
+            "openSuccess": "Mức VIP của bạn đã được kích hoạt! Tài khoản VIP sẽ có hiệu lực sau vài giây.",
+            "openFail": "Đăng ký VIP thất bại",
+            "cancelSuccess": "Hủy VIP thành công",
+            "cancelFail": "Hủy không thành công",
+            "adviseToCancel": "SVIP sẽ không mất phí giao dịch cơ bản, vì vậy chúng tôi đề xuất bạn thu hồi VITE đã stake số mà yêu cầu để tạo mức VIP.",
+            "address": "Kích hoạt VIP",
+            "addressPlaceholder": "Địa chỉ hiện tại là địa chỉ mặc định, không thể sửa đổi địa chỉ này"
+        },
+        "svipConfirm": {
+            "open": "Nâng cấp",
+            "cancel": "Hủy",
+            "cancelVip": "Hủy SVIP",
+            "openVip": "Trở thành VIP",
+            "openStakingAmount": "Stake số lượng để trở thành SVIP",
+            "cancelStakingAmount": "Số dư Stake Khả dụng",
+            "noBalance": "Không đủ số dư",
+            "openHint": "Bạn sẽ được hưởng 0% phí giao dịch cơ bản khi nâng cấp lên SVIP. Số stake 1.000.000 VITE có thể được rút sau 30 ngày.",
+            "cancelHint": "Đặc quyền SVIP sẽ bị ngừng khi huỷ stake",
+            "openSuccess": "Đăng ký thành công! Trạng thái SVIP sẽ có hiệu lực sau ít phút.",
+            "openFail": "Đăng ký SVIP không thành công",
+            "cancelSuccess": "Hủy SVIP thành công",
+            "cancelFail": "Hủy không thành công",
+            "address": "Kích hoạt SVIP",
+            "addressPlaceholder": "Địa chỉ kích hoạt SVIP",
+            "cancelAddress": "Địa chỉ SVIP"
+        },
+        "vipListTitle": "Lịch sử VIP",
+        "openAddress": "Địa chỉ đã kích hoạt",
+        "type": "Loại VIP"
+    },
+    "inviteMining": {
+        "title": "Tổng Khai thác bằng Giới thiệu",
+        "myInviteIncome": "Hoa hồng từ Giới thiệu",
+        "inviteTradeIncome": "Hoa hồng từ Ref Giao dịch",
+        "inviteOrderIncome": "Hoa hồng từ Ref Tạo thanh khoản"
+    },
+    "orderMining": {
+        "title": "Tổng Khai thác từ Tạo thanh khoản",
+        "tbHead": {
+            "date": "Ngày",
+            "ratio": "Tỷ lệ",
+            "mining": "Số lượng"
+        },
+        "market": "Thị trường {name}",
+        "estimate": "{name} Tổng khai thác hôm nay"
+    },
+    "tradeDividend": {
+        "title": "Cổ tức",
+        "poolTitle": "Tổng Cổ tức Phí giao dịch",
+        "listTitle": "Cổ tức của tôi",
+        "allPrice": "Tổng Giá trị ước tính",
+        "date": "Ngày",
+        "VX": "Stake VX",
+        "coin": "Loại",
+        "amount": "Số lượng",
+        "price": "Tổng Giá trị ước tính",
+        "hintTitle": "Thông báo Quan trọng",
+        "comingHint": "Chức năng khai thác và cổ tức VX sẽ sớm ra mắt, hãy cùng chờ đón! Hệ thống sẽ phân phối 1% BTC, ETH, VITE, USDT của tổng số vốn chung cho tất cả người dùng VX, tỷ lệ thuận với lượng VX họ nắm giữ. Nhóm cổ tức ban đầu sẽ bắt đầu từ 0 và sẽ tăng theo mức phí mà ViteX thu được. Trader phải có tối thiểu 10 VX để nhận cổ tức từ nhóm vốn chung cổ tức bao gồm phí giao dịch cơ sở, phí niêm yết và phí tạo mã giới thiệu. ",
+        "more": "Tìm hiểu về Quy tắc cổ tức VX",
+        "help": "Quy tắc Phần thưởng: 1. Phải stake tối thiểu 10 VX để nhận dividend. 2. Việc gửi yêu cầu stake cho phép nhận dividend bắt đầu từ đợt phân phối gần nhất. 3. Số token đã stake sẽ chỉ được mở khoá sau thời gian chờ 7 ngày unstake",
+        "lockedAmount": "Số lượng Stake",
+        "lockAmountTips": "Nhận Dividend từ 10 VX hoặc nhiều hơn",
+        "unlockAmount": "Mở khóa",
+        "addHint1": "Phải stake tối thiểu 10 VX để nhận dividend",
+        "addHint2": "Việc gửi yêu cầu stake cho phép nhận\b dividend bắt đầu từ đợt phân phối gần nhất",
+        "addHint3": "Số token stake sẽ không được mở khoá sau thời gian chờ đợi 7 ngày",
+        "autoLock": "Stake Tự động",
+        "openAutoLock": {
+            "title": "Bật Stake Tự động",
+            "text": "VX đã được khai thác sẽ được tự động được stake sau khi bật"
+        },
+        "closeAutoLock": {
+            "title": "Tắt Stake Tự động",
+            "text": "VX đã được khai thác sẽ không được tự động được stake sau khi tắt"
+        },
+        "lock": "Stake",
+        "unlock": "Huỷ stake",
+        "lessMin": "Tối thiểu 1 VX",
+        "lockVXConfirm": {
+            "title": "Stake VX",
+            "available": "Số dư khả dụng Sàn",
+            "amountPlaceholder": "Vui lòng nhập số lượng stake, tối thiểu 1 VX",
+            "notEnough": "Số dư Sàn không đủ",
+            "submit": "Xác nhận\b Stake",
+            "amountText": "Số lượng"
+        },
+        "unlockVXConfirm": {
+            "title": "Huỷ Stake VX",
+            "available": "Số dư Stake Khả dụng",
+            "amountPlaceholder": "Vui lòng nhập số lượng, tối thiểu 1 VITE",
+            "notEnough": "Không đủ số dư",
+            "submit": "Xác nhận huỷ stake",
+            "amountText": "Số lượng",
+            "hint": "Mất khoảng 7 ngày để mở khoá."
+        },
+        "unlockList": {
+            "title": "Đang thu hồi",
+            "amount": "Số lượng",
+            "time": "Ngày khả dụng"
+        }
+    },
+    "tradeOperator": {
+        "title": "Nhà vận hành",
+        "tokenList": "Token",
+        "totalIncome": "Tổng thu nhập",
+        "permission": "Chuyển quyền sở hữu Token",
+        "txPairManage": "Quản lý Cặp giao dịch",
+        "noOperator": "Bạn chưa có token hoặc cặp giao dịch nào, bạn có muốn trở thành Nhà vậy hành?",
+        "learnMore": "Tìm hiểu thêm",
+        "permissionConfirm": {
+            "title": "Chuyển Quyền sở hữu",
+            "submit": "Xác nhận",
+            "tokenName": "Tên Token",
+            "address": "Địa chỉ nhận",
+            "notice": "THÔNG BÁO: Khi quyền sở hữu được chuyển cho người khác, các cặp giao dịch không được mở sẽ thuộc về chủ sở hữu mới. Cặp giao dịch hiện có/cặp giao dịch treo vẫn thuộc về bạn"
+        }
+    },
+    "tradeTxPairManage": {
+        "title": "Quản lý cặp giao dịch {tokenSymbol}",
+        "symbol": "Tên",
+        "income": "Thu nhập",
+        "fee": "Tỷ lệ Phí",
+        "status": "Trạng thái",
+        "operate": "Thực thi",
+        "stopTrans": "Đình chỉ",
+        "resetTrans": "Khôi phục",
+        "changeOwner": "Chuyển quyền Sở hữu",
+        "changeFee": "Điều chỉnh Tỷ lệ Phí",
+        "incomeList": "Chi tiết Thu nhập",
+        "historyIncome": "Lịch sử Thu nhập",
+        "openTxPair": "Mở Cặp Giao dịch",
+        "statusList": [
+            "Chuyển nhượng Quyền sở hữu",
+            "Giao dịch",
+            "Đình chỉ",
+            "Giao dịch chưa mở"
+        ],
+        "openTxPairConfirm": {
+            "title": "Mở {symbol} để giao dịch",
+            "fee": "Phí Niêm yết",
+            "hint": "Nếu bạn muốn thêm biểu tượng Nhà Vận hành sau khi mở một cặp giao dịch, vui lòng liên hệ với chúng tôi tại Telegram: https://t.me/vite_en",
+            "btn": "Gửi",
+            "reqSuccess": "Niêm yết thành công! Vui lòng kiểm tra tại bảng thị trường.",
+            "reqError": "Niêm yết thất bại, vui lòng thử lại"
+        },
+        "stopTransHint": "Chắc chắn đình chỉ {symbol}?",
+        "resetTransHint": "Chắc chắn khôi phục {symbol}?",
+        "stopSuccess": "Đình chỉ thành công",
+        "stopFail": "Đình chỉ thất bại",
+        "openSuccess": "Khôi phục thành công",
+        "openFail": "Khôi phục thất bại",
+        "changeOwnerSuccess": "Chuyển thành công",
+        "changeOwnerFaill": "Chuyển thất bại",
+        "submitChange": "Xác nhận chuyển",
+        "changeOwnerHint": "THÔNG BÁO: Bạn sẽ không thể thu hoặc điều chỉnh phí sau khi chuyển quyền sở hữu và bạn không thể hoàn tác hành động chuyển nhượng này",
+        "currentMaker": "Maker",
+        "confirmFee": "Phí",
+        "currentTaker": "Taker",
+        "txPairName": "Tên",
+        "changeFeeHint": "Phí của {symbol} trong {fee}",
+        "changeFeeSubmit": "Chắc chắn thay đổi {changeFeeHint}",
+        "historyAllIncome": "Tổng thu nhập",
+        "incomeListHead": {
+            "date": "Ngày",
+            "txNum": "Khối lượng",
+            "feeRate": "Tỷ giá",
+            "feeIncome": "Thu nhập"
+        }
+    },
+    "mobileAssets": {
+        "allAssets": "Giá trị Tài sản Ước tính ({token})",
+        "tokenInfoTitle": "Chi tiết Token",
+        "transfer": "Chuyển",
+        "trade": "Giao dịch",
+        "chooseTxPair": "Chọn Cặp giao dịch"
+    },
+    "mobileTradeCenter": {
+        "highPrice": "Cao",
+        "lowPrice": "Thấp",
+        "quantity": "24h Vol",
+        "buyTitle": "Mua",
+        "sellTitle": "Bán",
+        "price": "Giá ({token})",
+        "buy": {
+            "price": "Giá",
+            "quantity": "Số lượng"
+        },
+        "sell": {
+            "price": "Giá",
+            "quantity": "Số lượng"
+        },
+        "orderQuantity": "Số lượng",
+        "orderPrice": "Giá",
+        "executedQuantity": "Đã hoàn thành",
+        "avgPrice": "Avg"
+    },
+    "mobileDividend": {
+        "title": "Cổ tức",
+        "poolTitle": "Tổng Dividend ({token})",
+        "myDividendTitle": "Tổng Giá trị Dividend Ước tính ({token})",
+        "listTitle": "Chi tiết Dividend",
+        "lockingTitle": "Stake của tôi",
+        "viewLink": "Lịch sử Huỷ stake"
+    },
+    "mobileMining": {
+        "title": "Khai thác",
+        "miningTrade": "Giao dịch",
+        "miningStaking": "Stake",
+        "miningInvite": "Giới thiệu",
+        "miningOrder": "Tạo thanh khoản",
+        "tradeTotalIncome": "Tổng thu nhập ({token})",
+        "stakingTotalIncome": "Tổng thu nhập ({token})",
+        "inviteTotalIncome": "Tổng thu nhập ({token})",
+        "orderTotalIncome": "Tổng thu nhập ({token})",
+        "fee": "Phí",
+        "listTitle": "Lịch sử Khai thác",
+        "viewLink": "Trang tổng quan Khai thác",
+        "inviteTradeIncome": "Chi tiết Giao dịch Giới thiệu",
+        "inviteOrderIncome": "Chi tiết Tạo thanh khoản Giới thiệu",
+        "myStaking": "Stake của tôi"
+    },
+    "mobileBottomBar": {
+        "center": "Giao dịch",
+        "assets": "Tài sản",
+        "mining": "Khai thác",
+        "order": "Lệnh"
+    },
+    "mobileOrder": {
+        "filterDate": "Ngày",
+        "filterToken": "Loại",
+        "all": "Tất cả",
+        "3month": "3 tháng",
+        "1month": "1 tháng",
+        "1week": "1 tuần",
+        "1day": "1 ngày",
+        "clear": "Xóa",
+        "submit": "Tìm kiếm"
+    },
+    "desktop": {
+        "unlock": "mở khóa",
+        "unreceivedTx": {
+            "title": "Bạn đã nhận {num} giao dịch.",
+            "body": "Số lượng: {amount} {symbol} \nTừ địa chỉ: {address}"
+        }
+    }
+}

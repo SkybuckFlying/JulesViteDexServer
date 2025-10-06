@@ -1,0 +1,22 @@
+import baseComp from '@components/dialog/base.vue';
+import vbConfirmComp from './vbConfirm.vue';
+import vbConnectComp from './vbConnect.vue';
+import hwAddressSelectComp from './hwAddressSelect.vue';
+import hwVerifyAddressComp from './hwVerifyAddress.vue';
+import getDialog from './utils.js';
+import inviteComp from './invite.vue';
+import receiveInviteComp from './receiveInvite.vue';
+import changeRpcUrlComp from './changeRpcUrl.vue';
+import changePowUrlComp from './changePowUrl.vue';
+import powLimitComp from './powLimit.vue';
+
+export const inviteDialog = getDialog(inviteComp);
+export const receiveInviteDialog = getDialog(receiveInviteComp);
+export const baseDialog = getDialog(baseComp);
+export const vbConfirmDialog = getDialog(vbConfirmComp);
+export const vbConnectDialog = getDialog(vbConnectComp);
+export const hwAddressSelectDialog = getDialog(hwAddressSelectComp, { width: 'wide' });
+export const hwVerifyAddressDialog = getDialog(hwVerifyAddressComp);
+export const changeRpcUrlDialog = getDialog(changeRpcUrlComp);
+export const changePowUrlDialog = getDialog(changePowUrlComp);
+export const powLimitDialog = getDialog(powLimitComp);
